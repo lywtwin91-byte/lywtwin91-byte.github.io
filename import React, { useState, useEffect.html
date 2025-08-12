@@ -1,0 +1,287 @@
+import React, { useState, useEffect } from 'react';
+
+// --- Helper Functions & Components ---
+
+// 1. BMI 계산 및 분류 (변경 없음)
+const calculateBMI = (height, weight) => {
+    if (!height || !weight) return { value: 0, category: 'N/A' };
+    const heightInMeters = height / 100;
+    const bmi = weight / (heightInMeters * heightInMeters);
+    const roundedBmi = Math.round(bmi * 10) / 10;
+    let category = '정상';
+    if (roundedBmi < 18.5) category = '저체중';
+    else if (roundedBmi >= 23 && roundedBmi < 25) category = '과체중';
+    else if (roundedBmi >= 25) category = '비만';
+    return { value: roundedBmi, category };
+};
+
+// 2. 캐릭터 외형 결정 로직 (변경 없음)
+const getCharacterBodyType = (stats, baseStats) => {
+    const attackGrowth = stats.attack - baseStats.attack;
+    const defenseGrowth = stats.defense - baseStats.defense;
+    if (attackGrowth < 10 && defenseGrowth < 10) return 'balanced';
+    if (attackGrowth > defenseGrowth * 1.5) return 'attack_focused';
+    if (defenseGrowth > attackGrowth * 1.5) return 'defense_focused';
+    return 'balanced';
+};
+
+// 3. 캐릭터 외형 SVG 컴포넌트 (눈동자 추가 및 리팩토링)
+const CharacterVisual = ({ bodyType, isSnackAnimating }) => {
+    // SVG 털뭉치 몸통 컴포넌트
+    const FluffyBall = ({ bodyColor, children }) => (
+        <svg viewBox="0 0 100 100" className="w-full h-full">
+            <defs>
+                <filter id="fluffy">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                    <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                </filter>
+            </defs>
+            <g filter="url(#fluffy)">
+                <circle cx="50" cy="50" r="35" fill={bodyColor} />
+                <circle cx="45" cy="55" r="30" fill={bodyColor} />
+                <circle cx="55" cy="55" r="30" fill={bodyColor} />
+            </g>
+            {children}
+        </svg>
+    );
+
+    // 캐릭터 외형 타입에 따른 색상 및 라벨 정보
+    const visuals = {
+        balanced: { bodyColor: "#86efac", label: '균형잡힌 꿀꺽이' },
+        attack_focused: { bodyColor: "#f87171", label: '투지가 넘치는 꿀꺽이' },
+        defense_focused: { bodyColor: "#60a5fa", label: '단단한 꿀꺽이' },
+    };
+    const current = visuals[bodyType] || visuals.balanced;
+
+    // 캐릭터 표정을 관리하는 컴포넌트
+    const Face = () => {
+        // 간식 애니메이션이 활성화된 경우 (웃는 표정)
+        if (isSnackAnimating) {
+            return (
+                <>
+                    {/* 웃는 눈 (^^) */}
+                    <path d="M35 43 c 3 -5 8 -5 11 0" stroke="black" strokeWidth="2.5" fill="none" strokeLinecap="round"/>
+                    <path d="M59 43 c 3 -5 8 -5 11 0" stroke="black" strokeWidth="2.5" fill="none" strokeLinecap="round"/>
+                    {/* 활짝 웃는 입 */}
+                    <path d="M 40 65 Q 50 80 60 65" stroke="black" strokeWidth="3" fill="none" strokeLinecap="round" />
+                </>
+            );
+        }
+        // 기본 표정
+        return (
+            <>
+                {/* 눈 (흰자) */}
+                <circle cx="38" cy="45" r="7" fill="white" />
+                <circle cx="62" cy="45" r="7" fill="white" />
+                {/* 눈동자 (검은자) */}
+                <circle cx="38" cy="45" r="3.5" fill="black" />
+                <circle cx="62" cy="45" r="3.5" fill="black" />
+                {/* 입모양 */}
+                <path d={
+                    bodyType === 'attack_focused' ? "M 45 70 Q 50 65 55 70" : 
+                    bodyType === 'defense_focused' ? "M 45 68 H 55" : 
+                    "M 45 65 Q 50 75 55 65"
+                } stroke="black" strokeWidth="3" fill="none" strokeLinecap="round" />
+            </>
+        );
+    };
+
+    return (
+        <div className="flex flex-col items-center">
+            <div className={`w-36 h-36 rounded-full flex items-center justify-center mb-2 transition-transform duration-500 ${isSnackAnimating ? 'animate-bounce' : ''}`}>
+                <FluffyBall bodyColor={current.bodyColor}>
+                    <Face />
+                </FluffyBall>
+            </div>
+            <span className="text-sm font-semibold bg-gray-200 text-gray-700 px-3 py-1 rounded-full">{current.label}</span>
+        </div>
+    );
+};
+
+
+// 4. 상세 분석 리포트 컴포넌트 (변경 없음)
+const AnalysisReport = ({ nutrientData, bmiCategory }) => {
+    if (!nutrientData) return null;
+    const { protein, fat, carbs } = nutrientData;
+    const calories = (protein * 4) + (carbs * 4) + (fat * 9);
+    const walkingMinutes = Math.round(calories / 3.5);
+    const joggingMinutes = Math.round(calories / 7);
+    const attackChange = protein;
+    const defenseChange = fat;
+    const hpChange = carbs * 2;
+    let tip = "오늘 섭취한 칼로리를 건강하게 소모하려면...";
+    if (bmiCategory === '과체중' || bmiCategory === '비만') { tip = "체중 감량을 위해, 오늘 섭취한 칼로리를 소모하려면..."; }
+    return (
+        <div className="mt-6 bg-white p-6 rounded-lg border border-gray-200 shadow-sm"><h4 className="text-xl font-bold mb-4 text-center text-indigo-600">헬스케어 리포트</h4><div className="space-y-4"><div><h5 className="font-bold text-gray-800 mb-1">✔️ 섭취 영양 정보</h5><ul className="list-disc list-inside text-gray-600 pl-2"><li>총 칼로리: <strong className="text-black">{calories.toFixed(0)} kcal</strong></li><li>단백질: <strong className="text-black">{protein} g</strong></li><li>지방: <strong className="text-black">{fat} g</strong></li><li>탄수화물: <strong className="text-black">{carbs} g</strong></li></ul></div><div><h5 className="font-bold text-gray-800 mb-1">📈 스탯 변화</h5><ul className="list-disc list-inside text-gray-600 pl-2"><li>공격력: <strong className="text-red-500">+{attackChange}</strong></li><li>방어력: <strong className="text-blue-500">+{defenseChange}</strong></li><li>체력: <strong className="text-green-500">+{hpChange}</strong></li></ul></div><div><h5 className="font-bold text-gray-800 mb-1">💪 권장 운동</h5><p className="text-sm text-gray-600 mb-1">{tip}</p><p className="text-gray-700">🏃 <strong className="text-black">{joggingMinutes}분</strong> 조깅 또는 🚶 <strong className="text-black">{walkingMinutes}분</strong> 걷기</p></div></div></div>
+    );
+};
+
+// Stat display card
+const StatCard = ({ label, value, icon, color, unit }) => (
+  <div className="bg-gray-50 rounded-lg p-3 flex items-center shadow-sm border border-gray-200">
+    <div className={`w-10 h-10 rounded-lg flex items-center justify-center mr-3 ${color} text-xl text-white`}>{icon}</div>
+    <div>
+      <div className="text-sm text-gray-500">{label}</div>
+      <div className="text-xl font-bold text-gray-800">{value} <span className="text-sm font-normal text-gray-600">{unit}</span></div>
+    </div>
+  </div>
+);
+
+// Settings Modal (변경 없음)
+const SettingsModal = ({ isOpen, onClose, onSave, onReset, currentName }) => {
+  const [name, setName] = useState(currentName);
+  useEffect(() => { setName(currentName); }, [currentName, isOpen]);
+  if (!isOpen) return null;
+  const handleSave = () => { onSave(name); onClose(); };
+  const handleReset = () => { if (window.confirm('정말로 캐릭터를 초기화하시겠습니까? 모든 진행 상황이 사라집니다.')) { onReset(); }};
+  return (
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"><div className="bg-white rounded-2xl p-8 shadow-2xl text-gray-800 w-full max-w-sm"><h2 className="text-2xl font-bold mb-6 text-center">설정</h2><div className="mb-6"><label htmlFor="characterName" className="block text-left text-sm font-medium text-gray-600 mb-1">캐릭터 이름</label><input id="characterName" type="text" value={name} onChange={(e) => setName(e.target.value)} className="w-full bg-gray-100 border border-gray-300 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"/></div><div className="space-y-3"><button onClick={handleSave} className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg">저장하기</button><button onClick={handleReset} className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded-lg">캐릭터 초기화</button><button onClick={onClose} className="w-full bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded-lg mt-2">닫기</button></div></div></div>
+  );
+};
+
+
+// --- Main Screen Components ---
+
+const WelcomeScreen = ({ onStart }) => {
+  const [height, setHeight] = useState('');
+  const [weight, setWeight] = useState('');
+  const [name, setName] = useState('');
+  const [error, setError] = useState('');
+  const handleStart = () => {
+    const h = parseInt(height, 10);
+    const w = parseInt(weight, 10);
+    if (isNaN(h) || isNaN(w) || h <= 0 || w <= 0) { setError('유효한 키와 몸무게를 입력해주세요.'); return; }
+    if (!name.trim()) { setError('캐릭터 이름을 입력해주세요.'); return; }
+    setError('');
+    onStart({ height: h, weight: w, name: name.trim() });
+  };
+  return (
+    <div className="w-full max-w-md mx-auto bg-white rounded-2xl p-8 shadow-lg text-center"><h1 className="text-3xl font-bold mb-2 text-gray-800">영양 RPG</h1><p className="text-gray-500 mb-6">당신의 식단으로 캐릭터를 성장시키세요!</p><div className="space-y-4 mb-6"><div><label htmlFor="characterName" className="block text-left text-sm font-medium text-gray-600 mb-1">캐릭터 이름</label><input id="characterName" type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="예: 꿀꺽이" className="w-full bg-gray-100 border border-gray-300 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500" /></div><div><label htmlFor="height" className="block text-left text-sm font-medium text-gray-600 mb-1">키 (cm)</label><input id="height" type="number" value={height} onChange={(e) => setHeight(e.target.value)} placeholder="예: 175" className="w-full bg-gray-100 border border-gray-300 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500" /></div><div><label htmlFor="weight" className="block text-left text-sm font-medium text-gray-600 mb-1">몸무게 (kg)</label><input id="weight" type="number" value={weight} onChange={(e) => setWeight(e.target.value)} placeholder="예: 70" className="w-full bg-gray-100 border border-gray-300 rounded-lg px-4 py-3 text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500" /></div></div>{error && <p className="text-red-500 text-sm mb-4">{error}</p>}<button onClick={handleStart} className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-md">게임 시작</button></div>
+  );
+};
+
+const GameScreen = ({ character, onUpdateStats, onReset, onUpdateName, onGiveSnack }) => {
+  const { name, stats, bmi, bodyType } = character;
+  const [analysisResult, setAnalysisResult] = useState(null);
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const [isSnackAnimating, setIsSnackAnimating] = useState(false);
+
+  const handleImageUpload = (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+    setIsAnalyzing(true);
+    setAnalysisResult(null);
+    setTimeout(() => {
+      const mockData = { protein: Math.floor(Math.random() * 20) + 5, fat: Math.floor(Math.random() * 15) + 5, carbs: Math.floor(Math.random() * 50) + 10 };
+      setAnalysisResult(mockData);
+      onUpdateStats(mockData);
+      setIsAnalyzing(false);
+    }, 1500);
+  };
+  
+  const handleSnackClick = () => {
+    if (window.confirm('꿀꺽이에게 간식을 주시겠어요? (행운 스탯이 올라가요!)')) {
+        onGiveSnack();
+        setIsSnackAnimating(true);
+        setTimeout(() => setIsSnackAnimating(false), 1500); // Animation duration
+    }
+  };
+
+  return (
+    <>
+      <SettingsModal isOpen={isSettingsOpen} onClose={() => setIsSettingsOpen(false)} onSave={onUpdateName} onReset={onReset} currentName={name} />
+      <div className="w-full max-w-md mx-auto text-gray-800">
+        <div className="bg-white rounded-2xl p-6 shadow-lg mb-6 relative border border-gray-200">
+          <button onClick={() => setIsSettingsOpen(true)} className="absolute top-4 right-4 text-gray-400 hover:text-indigo-600 transition"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg></button>
+          <h2 className="text-2xl font-bold text-center mb-1">{name}</h2>
+          <p className="text-center text-gray-500 mb-4">BMI: {bmi.value} ({bmi.category})</p>
+          <div className="flex justify-center items-center mb-6"><CharacterVisual bodyType={bodyType} isSnackAnimating={isSnackAnimating} /></div>
+          <div className="grid grid-cols-2 gap-4 text-center">
+            <StatCard label="공격력" value={stats.attack} icon="⚔️" color="bg-red-500" unit="ATK" />
+            <StatCard label="방어력" value={stats.defense} icon="🛡️" color="bg-blue-500" unit="DEF" />
+            <StatCard label="체력" value={stats.hp} icon="❤️" color="bg-green-500" unit="HP" />
+            <StatCard label="행운" value={stats.special.luck} icon="🍀" color="bg-yellow-500" unit="LUK" />
+          </div>
+          <button onClick={handleSnackClick} className="absolute bottom-4 right-4 bg-yellow-400 hover:bg-yellow-500 text-white p-3 rounded-full shadow-lg transition transform hover:scale-110">
+            <span className="text-2xl">🍪</span>
+          </button>
+        </div>
+        <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-200">
+          <h3 className="text-xl font-bold text-center mb-4">식단 기록하기</h3>
+          <input type="file" accept="image/*" onChange={handleImageUpload} className="hidden" id="meal-upload" />
+          <label htmlFor="meal-upload" className="w-full cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300 flex items-center justify-center shadow-md"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>사진 업로드</label>
+          {isAnalyzing && <div className="text-center mt-4 text-indigo-600 animate-pulse">분석 중...</div>}
+          {analysisResult && <AnalysisReport nutrientData={analysisResult} bmiCategory={bmi.category} />}
+        </div>
+      </div>
+    </>
+  );
+};
+
+// Main App Component
+export default function App() {
+  const [character, setCharacter] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Load character and migrate data if needed
+  useEffect(() => {
+    try {
+      const savedCharacterJSON = localStorage.getItem('characterData');
+      if (savedCharacterJSON) {
+        let characterData = JSON.parse(savedCharacterJSON);
+        // BUG FIX: Ensure new stats properties exist for old saved data
+        if (!characterData.stats.special) {
+          characterData.stats.special = { luck: 0 };
+        } else if (typeof characterData.stats.special.luck === 'undefined') {
+          characterData.stats.special.luck = 0;
+        }
+        setCharacter(characterData);
+      }
+    } catch (error) {
+      console.error("Failed to load or migrate character data:", error);
+      localStorage.removeItem('characterData');
+    }
+    setIsLoading(false);
+  }, []);
+
+  // Save character data whenever it changes
+  useEffect(() => { if (character) { try { localStorage.setItem('characterData', JSON.stringify(character)); } catch (error) { console.error("Failed to save character data:", error); } } }, [character]);
+
+  const handleStartGame = ({ height, weight, name }) => {
+    const baseStats = { attack: Math.round(((height - 100) > 0 ? (height - 100) * 1.5 : 10)), defense: Math.round(weight * 1.0), hp: Math.round(weight * 2 * 10), special: { luck: 0 } };
+    const bmi = calculateBMI(height, weight);
+    setCharacter({ name, height, weight, stats: baseStats, baseStats, bmi, bodyType: 'balanced' });
+  };
+
+  const handleUpdateStats = (nutrientData) => {
+    setCharacter(prev => {
+      const newStats = { ...prev.stats };
+      newStats.attack += nutrientData.protein;
+      newStats.defense += nutrientData.fat;
+      newStats.hp += nutrientData.carbs * 2;
+      const newBodyType = getCharacterBodyType(newStats, prev.baseStats);
+      return { ...prev, stats: newStats, bodyType: newBodyType };
+    });
+  };
+  
+  const handleGiveSnack = () => {
+    setCharacter(prev => {
+        const currentLuck = prev.stats.special.luck || 0;
+        const newLuck = currentLuck === 0 ? 5 : Math.ceil(currentLuck * 1.1);
+        return { ...prev, stats: { ...prev.stats, special: { ...prev.stats.special, luck: newLuck } } };
+    });
+  };
+  
+  const handleUpdateName = (newName) => { if (newName && newName.trim()) { setCharacter(prev => ({...prev, name: newName.trim()})); } };
+  const handleReset = () => { localStorage.removeItem('characterData'); setCharacter(null); };
+  
+  if (isLoading) { return <div className="bg-gray-100 min-h-screen flex items-center justify-center text-gray-800">로딩 중...</div> }
+
+  return (
+    <div className="bg-gray-100 min-h-screen flex items-center justify-center p-4 font-sans">
+      {character ? ( <GameScreen character={character} onUpdateStats={handleUpdateStats} onUpdateName={handleUpdateName} onReset={handleReset} onGiveSnack={handleGiveSnack} /> ) : ( <WelcomeScreen onStart={handleStartGame} /> )}
+    </div>
+  );
+}
