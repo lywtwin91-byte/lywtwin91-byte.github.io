@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SilentGuard</string>
+    <string name="switch_label">전체 무음 강제 적용</string>
+    <string name="section_permissions">필요 권한</string>
+    <string name="status_granted">허용됨</string>
+    <string name="status_not_granted">허용 필요</string>
+    <string name="button_dnd_access">방해금지 접근 권한 설정</string>
+    <string name="button_battery_exemption">배터리 최적화 제외 설정</string>
+    <string name="notification_channel_name">무음 모드 실행 중</string>
+    <string name="notification_title">SilentGuard 실행 중</string>
+    <string name="notification_text">모든 소리를 무음으로 유지하고 있습니다.</string>
+    <string name="action_stop">중지</string>
+    <string name="disclaimer">이 기능은 실제 전화 통화 중에는 자동으로 비활성화되어 통화를 방해하지 않습니다. 일부 시스템음(카메라 셔터음 등)은 리전 정책상 앱에서 제어할 수 없습니다.</string>
+</resources>
