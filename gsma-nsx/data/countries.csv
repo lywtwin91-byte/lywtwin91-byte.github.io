@@ -1,0 +1,216 @@
+﻿country_iso,country,carriers,volte,vowifi,vonr,nr_sa,vilte,ts43_entitlement,satellite,ims_detailed,others_pb_entries,mcc
+US,United States,126,113,82,45,66,2,16,49,105,90,204 206 208 214 222 234 238 240 262 302 310 311 312 313 314 334 901 999
+CA,Canada,29,27,15,5,9,0,5,2,25,2,302
+GB,United Kingdom,28,28,22,3,3,0,1,1,23,2,206 234 235 240
+ZZ,(International/MVNO/Test),18,13,2,1,3,3,1,3,6,3,001 204 206 208 214 222 228 232 234 260 262 272 295 310 334 424 454 505 525 712 724 732 901
+FR,France,15,13,5,5,7,0,3,1,6,5,208 901
+DE,Germany,15,14,10,5,7,0,0,0,12,1,208 240 262
+IT,Italy,15,15,6,0,0,0,0,0,10,9,208 222 228 240
+JP,Japan,15,15,0,0,9,0,10,11,15,5,208 440 441
+MX,Mexico,15,14,11,0,0,0,0,0,13,26,334
+ES,Spain,14,13,11,0,3,0,0,0,9,8,214 999
+AT,Austria,13,13,7,1,2,0,0,0,11,2,232 240
+CH,Switzerland,12,11,5,2,2,0,2,0,6,1,228 240
+SE,Sweden,10,10,8,3,3,0,0,0,9,0,240
+BE,Belgium,9,9,5,1,1,0,0,0,8,2,206 901
+NO,Norway,9,6,5,0,3,0,0,0,5,3,240 242 999
+IL,Israel,8,8,4,0,0,0,0,0,5,6,204 425
+NL,Netherlands,8,8,5,1,1,0,0,0,5,2,204
+BR,Brazil,7,7,1,0,0,0,0,0,1,1,724
+IE,Ireland,7,7,5,0,0,0,0,0,5,3,272
+MY,Malaysia,6,6,5,0,2,0,0,0,5,0,502
+PT,Portugal,6,6,3,0,0,0,0,0,4,0,268
+DK,Denmark,5,5,4,0,1,0,0,0,4,0,238
+HK,Hong Kong,5,5,3,0,0,0,0,0,2,77,204 208 222 260 311 424 454 724 901
+IN,India,5,5,4,1,2,0,0,0,5,24,404 405
+SG,Singapore,5,5,4,1,5,0,0,0,5,2,525
+TW,"Taiwan, Province of China",5,5,3,0,0,0,0,0,5,3,466
+TR,Türkiye,5,5,3,0,0,0,0,0,1,0,286
+AU,Australia,4,4,4,1,3,0,1,1,3,7,505
+CL,Chile,4,4,0,0,0,0,0,0,0,4,730
+HR,Croatia,4,4,3,0,0,0,0,0,3,0,219
+FI,Finland,4,4,3,1,1,0,0,0,3,2,244
+GR,Greece,4,4,3,0,0,0,0,0,3,1,202
+HU,Hungary,4,4,3,0,0,0,0,0,2,3,216
+ID,Indonesia,4,4,0,0,0,0,0,0,0,3,510
+KW,Kuwait,4,4,2,0,0,0,0,0,1,0,419
+LI,Liechtenstein,4,4,3,0,0,0,1,0,3,0,295
+LU,Luxembourg,4,4,3,0,0,0,0,0,2,0,270
+NZ,New Zealand,4,4,4,0,0,0,0,0,2,0,530
+PK,Pakistan,4,2,0,0,0,0,0,0,0,1,410
+PL,Poland,4,4,4,0,0,0,0,0,4,1,260
+RO,Romania,4,4,4,0,0,0,0,0,4,2,226
+RE,Réunion,4,4,1,0,0,0,0,0,1,0,208 647
+SA,Saudi Arabia,4,4,2,0,0,0,0,0,4,0,420
+SK,Slovakia,4,4,4,0,0,0,0,0,3,0,231
+SI,Slovenia,4,4,3,0,0,0,0,0,3,1,293
+LK,Sri Lanka,4,4,1,0,0,0,0,0,0,1,413
+TH,Thailand,4,4,2,0,0,0,0,0,2,4,520
+AR,Argentina,3,3,0,0,0,0,0,0,0,2,722
+BH,Bahrain,3,3,1,0,0,0,0,0,0,0,426
+BG,Bulgaria,3,3,2,0,0,0,0,0,1,2,284
+CN,China,3,3,0,0,3,0,0,0,0,0,460
+CO,Colombia,3,3,0,0,0,0,0,0,0,9,732
+CY,Cyprus,3,1,1,0,0,0,0,0,1,1,280
+CZ,Czechia,3,3,3,0,0,0,0,0,3,0,230
+EE,Estonia,3,3,3,0,0,0,0,0,3,0,248
+PF,French Polynesia,3,2,0,0,0,0,0,0,0,0,547
+IS,Iceland,3,3,3,0,0,0,0,0,2,0,274
+KR,"Korea, Republic of",3,0,0,0,0,0,0,0,3,2,450
+LV,Latvia,3,3,3,0,0,0,0,0,3,0,247
+LT,Lithuania,3,3,3,0,0,0,0,0,3,0,246
+MO,Macao,3,3,0,0,0,0,0,0,0,2,455
+MT,Malta,3,3,2,0,0,0,0,0,2,0,278
+MD,"Moldova, Republic of",3,3,0,0,0,0,0,0,1,1,259
+ME,Montenegro,3,3,1,0,0,0,0,0,1,0,297
+PE,Peru,3,3,0,0,0,0,0,0,0,1,716
+PH,Philippines,3,3,2,0,0,0,0,0,2,2,515
+RU,Russian Federation,3,3,0,0,0,0,0,0,0,6,250
+RS,Serbia,3,3,0,0,0,0,0,0,0,2,220
+VN,Viet Nam,3,3,1,0,0,0,0,0,0,3,452
+AL,Albania,2,2,1,0,0,0,0,0,0,0,276
+BD,Bangladesh,2,2,1,0,0,0,0,0,0,0,470
+BA,Bosnia and Herzegovina,2,2,0,0,0,0,0,0,0,1,218
+FO,Faroe Islands,2,2,2,0,0,0,0,0,2,0,274 288
+GE,Georgia,2,2,0,0,0,0,0,0,0,0,282
+GP,Guadeloupe,2,2,1,0,0,0,0,0,1,0,208 340
+IM,Isle of Man,2,2,0,0,0,0,0,0,0,0,234
+KE,Kenya,2,2,0,0,0,0,0,0,1,4,639
+MN,Mongolia,2,2,0,0,0,0,0,0,0,3,428
+MK,North Macedonia,2,2,0,0,0,0,0,0,1,2,294
+OM,Oman,2,2,0,0,0,0,0,0,0,1,422
+PR,Puerto Rico,2,2,2,0,0,0,0,0,2,2,313 330
+QA,Qatar,2,2,0,0,0,0,0,0,1,0,427
+TZ,"Tanzania, United Republic of",2,2,0,0,0,0,0,0,0,1,640
+UA,Ukraine,2,2,1,0,0,0,0,0,0,4,255
+AE,United Arab Emirates,2,2,1,0,0,0,0,0,1,0,424
+AF,Afghanistan,1,1,0,0,0,0,0,0,0,3,412
+AS,American Samoa,1,1,1,0,0,0,0,0,1,1,311 544
+AD,Andorra,1,1,1,0,0,0,0,0,1,0,213
+AG,Antigua and Barbuda,1,1,1,0,0,0,0,0,0,1,344
+AW,Aruba,1,1,0,0,0,0,0,0,0,1,363
+BS,Bahamas,1,1,0,0,0,0,0,0,0,0,208 364
+BM,Bermuda,1,1,1,0,0,0,0,0,0,4,338 350
+KY,Cayman Islands,1,1,0,0,0,0,0,0,0,1,346
+CK,Cook Islands,1,1,0,0,0,0,0,0,1,0,548
+DO,Dominican Republic,1,1,0,0,0,0,0,0,0,3,370
+EG,Egypt,1,1,0,0,0,0,0,0,0,2,602
+GH,Ghana,1,1,1,0,0,0,0,0,0,4,620
+GI,Gibraltar,1,1,0,0,0,0,0,0,0,0,266
+GL,Greenland,1,1,0,0,0,0,0,0,0,0,290
+GY,Guyana,1,1,0,0,0,0,0,0,0,2,738
+HT,Haiti,1,1,0,0,0,0,0,0,1,1,372
+IR,"Iran, Islamic Republic of",1,1,0,0,0,0,0,0,0,6,432
+IQ,Iraq,1,1,0,0,0,0,0,0,0,6,418
+KG,Kyrgyzstan,1,1,0,0,0,0,0,0,0,4,437
+LA,Lao People's Democratic Republic,1,1,0,0,0,0,0,0,0,4,457
+LS,Lesotho,1,1,0,0,0,0,0,0,0,1,651
+MW,Malawi,1,1,0,0,0,0,0,0,0,2,650
+MV,Maldives,1,1,0,0,0,0,0,0,0,1,472
+ML,Mali,1,1,0,0,0,0,0,0,0,0,610
+MQ,Martinique,1,1,0,0,0,0,0,0,0,0,208 340
+YT,Mayotte,1,1,0,0,0,0,0,0,0,2,647
+MC,Monaco,1,1,0,0,0,0,0,0,0,0,212
+NR,Nauru,1,1,0,0,0,0,0,0,0,1,536
+NP,Nepal,1,1,0,0,0,0,0,0,0,3,429
+NG,Nigeria,1,1,0,0,0,0,0,0,0,3,621
+PW,Palau,1,1,0,0,0,0,0,0,0,2,552
+RW,Rwanda,1,1,0,0,0,0,0,0,0,4,635
+PM,Saint Pierre and Miquelon,1,1,0,0,0,0,0,0,1,0,308
+SN,Senegal,1,1,0,0,0,0,0,0,0,2,608
+SC,Seychelles,1,1,0,0,0,0,0,0,0,3,633
+SL,Sierra Leone,1,1,0,0,0,0,0,0,0,5,619
+SB,Solomon Islands,1,1,0,0,0,0,0,0,0,1,540
+ZA,South Africa,1,1,0,0,0,0,0,0,1,7,655
+SY,Syrian Arab Republic,1,1,0,0,0,0,0,0,0,2,417
+TJ,Tajikistan,1,1,0,0,0,0,0,0,0,3,436
+TN,Tunisia,1,1,0,0,0,0,0,0,0,2,605
+UG,Uganda,1,1,0,0,0,0,0,0,0,5,641
+UY,Uruguay,1,1,0,0,0,0,0,0,0,2,748
+VG,"Virgin Islands, British",1,1,0,0,0,0,0,0,0,2,348
+XX,XX,1,1,0,0,1,0,0,0,1,0,999
+ZM,Zambia,1,0,0,0,0,0,0,0,0,2,645
+DZ,Algeria,0,0,0,0,0,0,0,0,0,3,603
+AO,Angola,0,0,0,0,0,0,0,0,0,2,631
+AI,Anguilla,0,0,0,0,0,0,0,0,0,1,365
+AM,Armenia,0,0,0,0,0,0,0,0,0,2,283
+AZ,Azerbaijan,0,0,0,0,0,0,0,0,0,4,400
+BB,Barbados,0,0,0,0,0,0,0,0,0,1,342
+BY,Belarus,0,0,0,0,0,0,0,0,0,3,257
+BZ,Belize,0,0,0,0,0,0,0,0,0,2,702
+BJ,Benin,0,0,0,0,0,0,0,0,0,5,616
+BT,Bhutan,0,0,0,0,0,0,0,0,0,2,402
+BO,"Bolivia, Plurinational State of",0,0,0,0,0,0,0,0,0,3,736
+BQ,"Bonaire, Sint Eustatius and Saba",0,0,0,0,0,0,0,0,0,1,362
+BW,Botswana,0,0,0,0,0,0,0,0,0,1,652
+BN,Brunei Darussalam,0,0,0,0,0,0,0,0,0,2,528
+BF,Burkina Faso,0,0,0,0,0,0,0,0,0,3,613
+BI,Burundi,0,0,0,0,0,0,0,0,0,6,642
+CV,Cabo Verde,0,0,0,0,0,0,0,0,0,2,625
+KH,Cambodia,0,0,0,0,0,0,0,0,0,6,456
+CM,Cameroon,0,0,0,0,0,0,0,0,0,1,624
+CF,Central African Republic,0,0,0,0,0,0,0,0,0,4,623
+TD,Chad,0,0,0,0,0,0,0,0,0,4,622
+KM,Comoros,0,0,0,0,0,0,0,0,0,1,654
+CG,Congo,0,0,0,0,0,0,0,0,0,2,629
+CD,"Congo, The Democratic Republic of the",0,0,0,0,0,0,0,0,0,2,630
+CR,Costa Rica,0,0,0,0,0,0,0,0,0,6,712
+CU,Cuba,0,0,0,0,0,0,0,0,0,1,368
+CI,Côte d'Ivoire,0,0,0,0,0,0,0,0,0,4,612
+DJ,Djibouti,0,0,0,0,0,0,0,0,0,1,638
+DM,Dominica,0,0,0,0,0,0,0,0,0,1,366
+EC,Ecuador,0,0,0,0,0,0,0,0,0,3,740
+SV,El Salvador,0,0,0,0,0,0,0,0,0,4,706
+GQ,Equatorial Guinea,0,0,0,0,0,0,0,0,0,2,627
+ER,Eritrea,0,0,0,0,0,0,0,0,0,1,657
+SZ,Eswatini,0,0,0,0,0,0,0,0,0,1,653
+ET,Ethiopia,0,0,0,0,0,0,0,0,0,2,636
+FJ,Fiji,0,0,0,0,0,0,0,0,0,2,542
+GA,Gabon,0,0,0,0,0,0,0,0,0,4,628
+GM,Gambia,0,0,0,0,0,0,0,0,0,4,607
+GD,Grenada,0,0,0,0,0,0,0,0,0,1,352
+GT,Guatemala,0,0,0,0,0,0,0,0,0,3,704
+GN,Guinea,0,0,0,0,0,0,0,0,0,5,611
+GW,Guinea-Bissau,0,0,0,0,0,0,0,0,0,3,632
+HN,Honduras,0,0,0,0,0,0,0,0,0,5,708
+JO,Jordan,0,0,0,0,0,0,0,0,0,3,416
+KZ,Kazakhstan,0,0,0,0,0,0,0,0,0,4,401
+KI,Kiribati,0,0,0,0,0,0,0,0,0,2,545
+LB,Lebanon,0,0,0,0,0,0,0,0,0,2,415
+LR,Liberia,0,0,0,0,0,0,0,0,0,5,618
+LY,Libya,0,0,0,0,0,0,0,0,0,5,606
+MG,Madagascar,0,0,0,0,0,0,0,0,0,1,646
+MH,Marshall Islands,0,0,0,0,0,0,0,0,0,1,551
+MR,Mauritania,0,0,0,0,0,0,0,0,0,3,609
+MU,Mauritius,0,0,0,0,0,0,0,0,0,1,617
+FM,"Micronesia, Federated States of",0,0,0,0,0,0,0,0,0,1,550
+MS,Montserrat,0,0,0,0,0,0,0,0,0,1,354
+MA,Morocco,0,0,0,0,0,0,0,0,0,3,604
+MZ,Mozambique,0,0,0,0,0,0,0,0,0,3,643
+MM,Myanmar,0,0,0,0,0,0,0,0,0,1,414
+NA,Namibia,0,0,0,0,0,0,0,0,0,3,649
+NC,New Caledonia,0,0,0,0,0,0,0,0,0,1,546
+NI,Nicaragua,0,0,0,0,0,0,0,0,0,3,
+NE,Niger,0,0,0,0,0,0,0,0,0,1,614
+PA,Panama,0,0,0,0,0,0,0,0,0,5,714
+PG,Papua New Guinea,0,0,0,0,0,0,0,0,0,2,537
+PY,Paraguay,0,0,0,0,0,0,0,0,0,4,744
+KN,Saint Kitts and Nevis,0,0,0,0,0,0,0,0,0,1,356
+LC,Saint Lucia,0,0,0,0,0,0,0,0,0,1,358
+VC,Saint Vincent and the Grenadines,0,0,0,0,0,0,0,0,0,1,360
+WS,Samoa,0,0,0,0,0,0,0,0,0,2,549
+ST,Sao Tome and Principe,0,0,0,0,0,0,0,0,0,1,626
+SO,Somalia,0,0,0,0,0,0,0,0,0,9,637
+SD,Sudan,0,0,0,0,0,0,0,0,0,4,634
+SR,Suriname,0,0,0,0,0,0,0,0,0,2,746
+TL,Timor-Leste,0,0,0,0,0,0,0,0,0,3,514
+TG,Togo,0,0,0,0,0,0,0,0,0,2,615
+TO,Tonga,0,0,0,0,0,0,0,0,0,3,539
+TT,Trinidad and Tobago,0,0,0,0,0,0,0,0,0,2,374
+TM,Turkmenistan,0,0,0,0,0,0,0,0,0,2,438
+TC,Turks and Caicos Islands,0,0,0,0,0,0,0,0,0,1,376
+UZ,Uzbekistan,0,0,0,0,0,0,0,0,0,4,434
+VU,Vanuatu,0,0,0,0,0,0,0,0,0,3,541
+VE,"Venezuela, Bolivarian Republic of",0,0,0,0,0,0,0,0,0,5,734
+YE,Yemen,0,0,0,0,0,0,0,0,0,5,421
+ZW,Zimbabwe,0,0,0,0,0,0,0,0,0,2,648

@@ -1,0 +1,640 @@
+﻿carrier,country_iso,country,mcc_mnc,mvno_match,config_version,config_updated,volte,volte_src,vowifi,vonr,nr_sa,vilte,cross_sim_calling,sms_over_ims,rcs_presence,ts43_entitlement,entitlement_url,gba_required,volte_provisioning_required,satellite,ims_apn,ims_param_keys,total_keys
+019mobile_il,IL,Israel,425019 42519,,82000000002,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,8
+1and1_de,DE,Germany,20801 26223,208016=894936,82000000012,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,26,62
+2degrees_nz,NZ,New Zealand,53024,,82000000004,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,16,22
+321communications_us,US,United States,310240 310260,310240GID1=6912 310260GID1=6912,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+48_ie,IE,Ireland,27211,27211GID1=FFFF 27211SPN=48,82000000004,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+4ka_sk,SK,Slovakia,23103,,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,3,12
+a1_at,AT,Austria,23201 23202,,82000000008,2026-08-26,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,18,41
+a1_bg,BG,Bulgaria,28401,,82000000004,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,9
+a1_hr,HR,Croatia,21910,,82000000006,2026-02-11,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,11,25
+a1_mk,MK,North Macedonia,29403,,82000000004,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,9
+a1_rs,RS,Serbia,22005,,82000000004,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,3
+a1_si,SI,Slovenia,29340,,82000000005,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,7,19
+a1mpn_at,AT,Austria,23209,,82000000007,2026-08-26,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,18,41
+agms_us,US,United States,310380,310380GID1=50,82000000002,2026-05-20,False,framework,False,False,False,False,True,True,False,False,,False,False,False,False,0,10
+ahamo_jp,JP,Japan,44010,44010GID1=01FFFF,82000000013,2026-07-22,True,carrier,False,False,True,False,True,True,False,True,https://ses.docomo.ne.jp:10024/resource,False,False,True,True,16,76
+airbus_de,DE,Germany,26298,,82000000005,2025-12-17,False,framework,False,False,True,False,True,True,False,False,,False,False,False,False,0,2
+airbus_es,ES,Spain,999341,,82000000001,2026-06-24,False,framework,False,False,True,False,True,True,False,False,,False,False,False,False,0,2
+airbus_fr,FR,France,208506,,82000000003,2025-12-17,False,framework,False,False,True,False,True,True,False,False,,False,False,False,False,0,3
+airtel_in,IN,India,40402 40403 40410 40416 40431 40440 40445 40449 40470 40490 40492 40493 40494 40495 40496 40497 40498 40551 40552 40553 40554 40555 40556,,82000000015,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,21,48
+airtel_lk,LK,Sri Lanka,41305,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+ais_th,TH,Thailand,52001 52003,,82000000009,2026-07-08,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,13
+alcom_fi,FI,Finland,24414,24414SPN=ALCOM,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,4
+aldimobile_au,AU,Australia,50501,50501SPN=ALDImobile,82000000001,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,24
+alestra_mx,MX,Mexico,334130,,82000000010,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,False,13,36
+aliv_bs,BS,Bahamas,20809 36449,20809IMSI=208090021,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,3
+alkafeel_iq,IQ,Iraq,41892,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,1,3
+altice_us,US,United States,313390,,82000000004,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,12,31
+alticeroaming_us,US,United States,208090,208090IMSI=208090057 208090IMSI=208090058 208090IMSI=208090059 208090IMSI=208090060 208090IMSI=208090061,82000000004,2025-12-17,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,12,27
+amarisoft_satellite,ZZ,(International/MVNO/Test),00101,00101GID1=52FF,82000000001,2026-06-22,False,framework,False,False,False,False,True,True,False,False,,False,False,True,False,0,11
+amigo_pt,PT,Portugal,26801,26801GID1=25,82000000001,2026-08-12,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,7,26
+andorratelecom_ad,AD,Andorra,21303,,82000000004,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,15
+annatel_il,IL,Israel,42526,,82000000002,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,8
+antel_uy,UY,Uruguay,74801,,82000000005,2026-02-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,6
+aomobile_gb,GB,United Kingdom,23415,23415GID1=34 23415SPN=AO Mobile,82000000007,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,21,56
+appalachian_us,US,United States,312130,,82000000006,2026-08-19,True,carrier,True,False,False,False,True,True,False,True,https://aes.ekn.com,False,False,False,True,8,20
+apt_tw,TW,"Taiwan, Province of China",46605,,82000000007,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,9,20
+apua_ag,AG,Antigua and Barbuda,34403,,82000000004,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,1,4
+asda_gb,GB,United Kingdom,23415,23415GID1=A0 23415GID1=A1,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,11,26
+assurance_us,US,United States,310160 310200 310210 310220 310230 310240 310250 310260 310270 310490 310660 310800 311660 311882 312250,310160GID1=1A53 310200GID1=1A53 310210GID1=1A53 310220GID1=1A53 310230GID1=1A53 310240GID1=1A53 310250GID1=1A53 310260GID1=1A53 310270GID1=1A53 310490GID1=1A53 310660GID1=1A53 310800GID1=1A53 311660GID1=1A53 311882GID1=1A53 312250GID1=1A53,82000000019,2026-07-13,True,carrier,True,True,True,False,True,True,True,True,https://ts43.eas3.msg.t-mobile.com/google?,True,False,True,True,48,158
+astca_as,AS,American Samoa,311780,,82000000004,2026-02-11,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,10
+astoundbroadband_us,US,United States,310240 310260,310240GID1=6911 310260GID1=6911,82000000014,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,143
+att4g_mx,MX,Mexico,334090,,82000000008,2026-05-20,False,framework,False,False,False,False,True,True,False,False,,False,False,False,False,13,35
+att5g_us,US,United States,310280 310410 310950 311180,310280GID1=53FF 310410GID1=53FF 310950GID1=53FF 311180GID1=53FF,82000000012,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,46,145
+att5gsa_us,US,United States,310280 310410 310950 311180,310280GID1=52FF 310410GID1=52FF 310950GID1=52FF 311180GID1=52FF,82000000018,2026-07-01,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,48,149
+att_mx,MX,Mexico,334050,334050GID1=4154543547FFFFFFFF 334050GID1=FFFFFFFFFFFFFFFFFF,82000000012,2026-07-29,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,29,68
+att_us,US,United States,310030 310170 310280 310380 310410 310560 310950 311180,,82000000014,2026-05-27,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,46,145
+attbootstrap_us,US,United States,310380,310380GID1=39FF,82000000008,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,46,147
+attmvnos_mx,MX,Mexico,334050,,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,13,36
+attmvnos_us,US,United States,310280 310410 310950 311180,310280GID1=44FF 310280GID1=49FF 310280GID1=62FF 310280GID1=69FF 310410GID1=44FF 310410GID1=49FF 310410GID1=62FF 310410GID1=69FF 310950GID1=44FF 310950GID1=62FF 310950GID1=69FF 311180GID1=44FF 311180GID1=62FF 311180GID1=69FF,82000000011,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,46,143
+axis_id,ID,Indonesia,51011,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+b1_ch,CH,Switzerland,22858,228586=894129,82000000006,2026-07-15,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,2
+bait_mx,MX,Mexico,334050,334050GID1=62616974FFFFFFFFFF,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,13,36
+bark_us,US,United States,310240 310260,310240GID1=8135 310260GID1=8135,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+base_be,BE,Belgium,20620,,82000000009,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,8,28
+batelco_bh,BH,Bahrain,42601 42605,,82000000005,2026-07-01,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,11
+bbix_zz,ZZ,(International/MVNO/Test),90104,,82000000002,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,1,4
+bell_ca,CA,Canada,302610 302630 302640,,82000000012,2026-07-08,True,carrier,True,True,True,False,False,True,False,True,https://egw.wireless.bell.ca:9014/DEGDROIDInterfaceTS43/,False,False,False,True,42,92
+best_la,LA,Lao People's Democratic Republic,45707,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+bhtelecom_ba,BA,Bosnia and Herzegovina,21890,,82000000001,2026-02-11,True,carrier,False,False,False,False,True,False,False,False,,False,False,False,True,2,11
+bics_be,BE,Belgium,20628 90158,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+bite_lt,LT,Lithuania,24602,,82000000004,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,7,21
+bite_lv,LV,Latvia,24705,,82000000004,2026-01-28,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,7,23
+bluegrass_us,US,United States,311440 311480,311480GID1=BA00010000000000,82000000022,2026-07-15,True,carrier,False,False,False,False,False,True,False,False,,False,False,False,True,60,226
+bob_at,AT,Austria,23211,,82000000007,2026-08-26,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,18,42
+bonbon_hr,HR,Croatia,21901,21901GID1=10 21901GID1=11 21901GID1=12 21901SPN=BONBON,82000000003,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,4
+boost_us,US,United States,310120 311870 312530,310120GID1=000002 312530GID1=000002,82000000003,2025-12-17,False,framework,False,False,False,False,True,True,False,False,,False,False,False,False,7,40
+boostmobile_us,US,United States,310410 311180,310410GID1=3430 310410GID1=3432 310410GID1=3434 310410GID1=3436 310410GID1=3438 310410GID1=3440 310410GID1=3442 310410GID1=3444 310410GID1=3446 310410GID1=3448 311180GID1=3430 311180GID1=3432 311180GID1=3434 311180GID1=3436 311180GID1=3438 311180GID1=3440 311180GID1=3442 311180GID1=3444 311180GID1=3446 311180GID1=3448,82000000005,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,46,146
+boosttmo_us,US,United States,310240 310260,310240GID1=6230 310260GID1=6230,82000000013,2026-07-13,True,carrier,False,False,True,False,True,True,False,False,,True,False,True,True,45,146
+bouygues_fr,FR,France,20820 20821 20888,,82000000013,2026-06-22,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,22,63
+bouyguesb2b_fr,FR,France,20820,20820IMSI=20820260 20820IMSI=20820261 20820IMSI=20820262,82000000002,2025-12-17,False,framework,False,False,True,False,True,True,False,False,,False,False,False,False,0,3
+brisanet_br,BR,Brazil,72477,72477SPN=Brisanet,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+bsnl_in,IN,India,40434 40438 40439 40451 40453 40454 40455 40457 40458 40459 40462 40464 40465 40466 40471 40472 40473 40474 40475 40476 40477 40479 40480 40481,,82000000012,2026-08-26,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,7,15
+btb_gb,GB,United Kingdom,23430,23430GID1=B3,82000000005,2026-07-22,True,carrier,True,False,False,False,False,True,False,False,,False,False,False,True,14,37
+btc_gb,GB,United Kingdom,23430,23430GID1=C3,82000000005,2026-07-22,True,carrier,True,False,False,False,False,True,False,False,,False,False,False,True,14,37
+cablenet_cy,CY,Cyprus,28022,,82000000004,2026-01-21,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,12
+cablewireless_sc,SC,Seychelles,63301,63301IMSI=63301010,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+cape_ca,CA,Canada,302220,302220GID1=2273 302220IMSI=302220723,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,10
+cape_us,US,United States,311588 314560,311588GID1=2273 311588IMSI=311588144 311588SPN=Cape 314560GID1=2273 314560SPN=Cape,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,10
+caribbean_vg,VG,"Virgin Islands, British",348570,,82000000002,2026-03-11,True,carrier,False,False,False,False,True,False,False,False,,False,False,False,True,4,6
+carolinawest_us,US,United States,310130,,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,True,https://aes.mnc130.mcc310.pub.3gppnetwork.org,False,False,False,True,9,28
+celcom_my,MY,Malaysia,50213 50219,,82000000007,2026-04-01,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,8,15
+cellcom_il,IL,Israel,42502,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,7,13
+cellcom_us,US,United States,310600 311480 311850,311480GID1=BA00040000000000,82000000021,2026-07-08,True,carrier,False,False,False,False,False,True,False,False,,False,False,False,True,47,179
+cellcommno_us,US,United States,311840,311840GID1=C1,82000000021,2026-07-01,True,carrier,True,False,False,False,True,True,False,True,https://deg.ims.cellcom.com/DEGDROIDInterfaceTS43,False,False,False,True,41,178
+cellfie_ge,GE,Georgia,28204,28204SPN=Cellfie,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,5
+cellhire_fr,FR,France,20834,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+cellmobile_gr,GR,Greece,20221,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,7
+celluarone_us,US,United States,310320,,82000000007,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,12,20
+chatr_ca,CA,Canada,302320 302720,302720GID1=D2 302720IMSI=302720x84 302720IMSI=302720x94,82000000008,2026-05-20,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,27,71
+chinamobile_hk,HK,Hong Kong,45412 45413,,82000000004,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,10
+cht_tw,TW,"Taiwan, Province of China",46692,,82000000010,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,17,48
+citymesh_be,BE,Belgium,20603 20613,,82000000004,2026-08-19,True,carrier,False,False,False,False,True,False,False,False,,False,False,False,True,8,15
+citymesh_se,SE,Sweden,24007,24007GID1=0002B 24007IMSI=2400756111,82000000004,2026-08-12,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,26,46
+cjsc_tj,TJ,Tajikistan,43604,,82000000002,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,5
+claro_ar,AR,Argentina,72231 722310,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+claro_br,BR,Brazil,72405,,82000000005,2026-07-01,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,10
+claro_cl,CL,Chile,73003,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+claro_co,CO,Colombia,732101,,82000000004,2026-07-29,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,3
+claro_pe,PE,Peru,71610,,82000000001,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+claro_pr,PR,Puerto Rico,330110,,82000000005,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,18,31
+cloud9_gb,GB,United Kingdom,23418,23418GID1=6764,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,7
+cloudcore_ca,CA,Canada,302220 302221,302220GID1=4C4F 302221GID1=4C4F,82000000009,2026-06-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,38,92
+cmcc_cn,CN,China,46000 46002 46004 46007 46008,,82000000002,2026-08-12,True,carrier,False,False,True,False,True,True,False,False,,False,False,False,True,0,8
+cogeco_ca,CA,Canada,302150,302150GID1=FFFF,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,14
+com4_no,NO,Norway,24009 24209,24209SPN=com4,82000000004,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+comcastbusiness_us,US,United States,310240,310240GID1=CC01,82000000017,2026-07-15,True,carrier,True,True,True,False,True,True,False,True,https://ts43.eas3.msg.t-mobile.com/google?,True,False,True,True,48,152
+commonmvnxatt_us,US,United States,310280 310410 310950 311180,310280GID1=20 310280GID1=21 310280GID1=22 310280GID1=23 310280GID1=24 310280GID1=25 310280GID1=26 310280GID1=27 310280GID1=28 310280GID1=29 310280GID1=30 310410GID1=20 310410GID1=21 310410GID1=22 310410GID1=23 310410GID1=24 310410GID1=25 310410GID1=26 310410GID1=27 310410GID1=28 310410GID1=29 310410GID1=30 310950GID1=20 310950GID1=21 310950GID1=22 310950GID1=23 310950GID1=24 310950GID1=25 310950GID1=26 310950GID1=27 310950GID1=28 310950GID1=29 310950GID1=30 311180GID1=20 311180GID1=21 311180GID1=22 311180GID1=23 311180GID1=24 311180GID1=25 311180GID1=26 311180GID1=27 311180GID1=28 311180GID1=29 311180GID1=30,82000000008,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,46,144
+compax_us,US,United States,310240 310260,310240GID1=6925 310260GID1=6925,82000000011,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+congstar_de,DE,Germany,26201 26206,26201GID1=44 26206GID1=44,82000000014,2026-08-12,True,carrier,True,False,False,False,False,True,False,False,,False,False,False,True,28,78
+consumercellularatt_us,US,United States,310280 310410 310950 311180,310280GID1=2AC9 310410GID1=2AC9 310950GID1=2AC9 311180GID1=2AC9,82000000010,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,46,144
+consumercellulartmo_us,US,United States,310240 310260,310240GID1=2AC9 310260GID1=2AC9,82000000010,2026-05-20,True,carrier,True,False,True,False,True,True,False,False,,True,False,False,True,24,62
+coopvoce_it,IT,Italy,20801 22201 22253,20801GID1=434F4F50FFFFFFFFFF 20801SPN=CoopVoce 22201GID1=434F4F50FFFFFFFFFF 22201SPN=CoopVoce,82000000007,2026-02-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,13
+coppervalley_us,US,United States,312380,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,7
+cordova_us,US,United States,311240,311240SPN=Cordova Wireless 311240SPN=CordovaWireless,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,11
+coriolis_fr,FR,France,20827,,82000000006,2026-06-03,True,carrier,False,False,False,False,False,True,False,False,,False,False,False,True,21,37
+correios_br,BR,Brazil,72417,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,9
+cox_us,US,United States,311480,311480GID1=BA01570000000000,82000000023,2026-08-19,True,carrier,True,False,False,False,False,True,False,False,,False,False,True,True,47,216
+cricket5g_us,US,United States,310150,310150GID1=53FF,82000000009,2026-07-22,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,39,111
+cricket_us,US,United States,310150,,82000000012,2026-07-22,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,39,111
+csl_hk,HK,Hong Kong,45400 45402 45418,,82000000001,2026-07-01,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,1,2
+cspire_nl,NL,Netherlands,20404,"20404SPN=C Spire 20404SPN=C Spire",82000000008,2026-05-20,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,20,45
+cspire_us,US,United States,311230,,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,True,https://aes.mnc230.mcc311.pub.3gppnetwork.org/DEGDROIDInterfaceTS43,False,False,False,True,31,69
+ct_cn,CN,China,46003 46005 46011 46012,,82000000002,2026-08-12,True,carrier,False,False,True,False,True,True,False,False,,False,False,False,True,0,6
+ct_mo,MO,Macao,45502 45507,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+ctm_mo,MO,Macao,45501 45504,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+cu_cn,CN,China,46001 46006 46009,,82000000002,2026-08-12,True,carrier,False,False,True,False,True,True,False,False,,False,False,False,True,0,4
+cytamobile_cy,CY,Cyprus,28001,,82000000006,2026-08-19,False,framework,True,False,False,False,True,True,False,False,,False,False,False,True,7,15
+defensemobile_us,US,United States,310280 310410,310280GID1=60FF 310410GID1=60FF,82000000001,2026-04-01,False,framework,False,False,False,False,True,True,False,False,,False,False,False,False,0,15
+dialog_lk,LK,Sri Lanka,41302,,82000000005,2026-08-05,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,1,4
+digi_be,BE,Belgium,20612,,82000000001,2026-08-19,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,9,14
+digi_hu,HU,Hungary,21603,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,10
+digi_it,IT,Italy,22236,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,5
+digi_my,MY,Malaysia,50210 502143 502146 50216,,82000000010,2026-07-08,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,15,25
+digi_pt,PT,Portugal,26802,26802SPN=Digi PT,82000000005,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,3,10
+digi_ro,RO,Romania,22605,,82000000006,2026-06-01,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,7,20
+digimobil_es,ES,Spain,21422,,82000000004,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,18
+dish5gsa_us,US,United States,20809 302220 313340 313350 313360,20809IMSI=208090073 20809IMSI=208090074 20809IMSI=208090075 20809IMSI=208090161 20809IMSI=208090162 20809IMSI=208090163 302220IMSI=302220520 302220IMSI=302220521 302220IMSI=302220522 302220IMSI=302220718 302220IMSI=302220719 302220IMSI=302220720 302220IMSI=302220724 302220IMSI=302220725 302220IMSI=302220726 302220IMSI=302220727 302220IMSI=302220728 302220IMSI=302220729 313340GID1=6332 313340GID1=6336 313340GID1=6530 313340GID1=6538 313340GID1=6630 313340GID1=6636 313340GID1=6638 313340GID1=6732 313340GID1=6736 313340GID1=6738 313340GID1=6830 313340GID1=6836 313340GID1=6838 313340GID1=7330 313340GID1=7530 313350GID1=6332 313350GID1=6336 313350GID1=6530 313350GID1=6538 313350GID1=6630 313350GID1=6636 313350GID1=6638 313350GID1=6732 313350GID1=6736 313350GID1=6738 313350GID1=6830 313350GID1=6836 313350GID1=6838 313350GID1=7330 313350GID1=7530 313360GID1=6332 313360GID1=6336 313360GID1=6530 313360GID1=6538 313360GID1=6630 313360GID1=6636 313360GID1=6638 313360GID1=6732 313360GID1=6736 313360GID1=6738 313360GID1=6830 313360GID1=6836 313360GID1=6838 313360GID1=7330 313360GID1=7530,82000000019,2026-08-19,True,carrier,True,True,True,False,True,True,False,True,https://aes.mnc340.mcc313.pub.3gppnetwork.org,False,False,False,True,32,78
+dish_us,US,United States,310240 310260,310240GID1=6430 310240GID1=6432 310240GID1=6434 310240GID1=6436 310240GID1=6438 310240GID1=6440 310240GID1=6442 310260GID1=6430 310260GID1=6432 310260GID1=6434 310260GID1=6436 310260GID1=6438 310260GID1=6440 310260GID1=6442,82000000017,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,146
+dito_ph,PH,Philippines,51566,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,8
+dna_fi,FI,Finland,24403 24404 24412 24413,,82000000008,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,6,19
+docomo_jp,JP,Japan,44010,44010GID1=00FFFF,82000000013,2026-07-22,True,carrier,False,False,True,False,False,True,False,True,https://ses.docomo.ne.jp:10024/resource,False,False,True,True,16,78
+docomomvno_jp,JP,Japan,44010,,82000000014,2026-05-06,True,carrier,False,False,True,False,True,True,False,False,,False,False,False,True,15,68
+docomopacific_us,US,United States,310370 310470,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,1,2
+dtac_th,TH,Thailand,52005,,82000000004,2026-02-04,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,5
+du_ae,AE,United Arab Emirates,42403,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,8
+eastlink_ca,CA,Canada,302270,,82000000008,2026-04-01,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,6,22
+ee_gb,GB,United Kingdom,23430 23433 23486,,82000000016,2026-08-19,True,carrier,True,True,True,False,False,True,False,False,,False,False,False,True,27,64
+eeyoumobility_ca,CA,Canada,302480,302480GID1=02 302480IMSI=3024800002,82000000005,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+eir_ie,IE,Ireland,27203,,82000000005,2026-01-28,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,12,25
+elisa_ee,EE,Estonia,24802,,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,21
+elisa_fi,FI,Finland,24405,,82000000009,2026-05-20,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,12,35
+emnify_br,BR,Brazil,72451,72451GID1=65 72451SPN=emnify,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,3
+emnify_li,LI,Liechtenstein,29505,29505GID1=65 29505IMSI=29505090 29505SPN=emnify,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,3
+emnify_zz,ZZ,(International/MVNO/Test),90143,90143GID1=65 90143SPN=emnify,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,3
+enetworks_gy,GY,Guyana,738040,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+enreach_de,DE,Germany,26203 26220,26203IMSI=26203482 26203IMSI=26203483,82000000005,2026-05-20,True,carrier,False,False,False,False,True,False,False,False,,False,False,False,True,6,12
+enreach_nl,NL,Netherlands,20403 20404 20408,20404IMSI=204047960 20408IMSI=204080950,82000000007,2026-02-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,12
+entel_cl,CL,Chile,73001,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,8
+entel_pe,PE,Peru,71617,,82000000002,2026-04-01,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,1,2
+epic_cy,CY,Cyprus,28010,,82000000001,2026-06-17,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,0,0
+epic_mt,MT,Malta,27801,,82000000004,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+eplus_de,DE,Germany,26203,,82000000017,2026-08-19,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,29,69
+erate_no,NO,Norway,24215,24215GID1=0E,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,13,25
+esimgo_gb,GB,United Kingdom,23415,23415GID1=0033 23415SPN=eSIM Go,82000000016,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,23,57
+esimgotravel_zz,ZZ,(International/MVNO/Test),20601 20628 20809 23210 23457 27225,20601GID1=0409 20628GID1=0409 20809GID1=0409 23210GID1=0409 23457GID1=0409 27225GID1=0409,82000000002,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,3
+esn_gb,GB,United Kingdom,23471,,82000000011,2026-08-19,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,28,63
+etisalat_ae,AE,United Arab Emirates,42402,,82000000006,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,8,23
+etisalat_af,AF,Afghanistan,41250,41250IMSI=412509378 41250SPN=ETISALAT,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,6
+etl_ls,LS,Lesotho,65102,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+evolve_us,US,United States,310990,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,10
+execulink_ca,CA,Canada,302340,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+faiba_ke,KE,Kenya,63910,63910SPN=Faiba Mobile,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+fastweb_it,IT,Italy,22208 22299 22801,22299SPN=FASTWEB 22801SPN=FASTWEB,82000000004,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,7,32
+fet_tw,TW,"Taiwan, Province of China",46601 46602 46603,,82000000010,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,23,53
+fi_at,AT,Austria,23210,23210GID1=0306,82000000010,2026-08-26,True,carrier,False,False,True,False,True,True,False,False,,False,False,False,False,27,120
+fi_extended_us,US,United States,310590 310591 310592 310593 310594 310595 310596 310597 310598 310599 311480,310590GID1=BA01770000000000 310591GID1=BA01770000000000 310592GID1=BA01770000000000 310593GID1=BA01770000000000 310594GID1=BA01770000000000 310595GID1=BA01770000000000 310596GID1=BA01770000000000 310597GID1=BA01770000000000 310598GID1=BA01770000000000 310599GID1=BA01770000000000 311480GID1=BA01770000000000,82000000005,2026-08-26,True,carrier,False,False,True,False,True,True,True,False,,False,False,False,True,63,243
+fi_tmo_us,US,United States,310240 310260,310240GID1=4276 310260GID1=4276 310260IMSI=31026097,82000000017,2026-08-26,True,carrier,False,False,True,False,True,True,False,False,,False,False,True,False,44,159
+fido_ca,CA,Canada,302370,302370GID1=DD,82000000008,2026-05-20,True,carrier,True,False,False,False,False,True,False,False,,False,False,False,True,27,69
+finetwork_es,ES,Spain,21406,21406SPN=Mi Operador 21406SPN=finetwork,82000000006,2026-05-27,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,0,10
+firstnet5gsa_us,US,United States,313100,313100GID1=52FF,82000000001,2026-08-19,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,36,110
+firstnet_us,US,United States,312670 313100 313130 313140,,82000000012,2026-06-22,True,carrier,True,False,True,False,False,True,False,False,,False,False,False,True,38,115
+firstnetpacific2_us,US,United States,313120,,82000000007,2026-06-03,True,carrier,False,False,False,False,False,True,False,False,,False,False,False,True,36,105
+firstnetpacific_us,US,United States,313110,,82000000009,2026-06-03,True,carrier,False,False,False,False,False,False,False,False,,False,False,False,True,38,106
+fizz_ca,CA,Canada,302500,302500GID1=55,82000000015,2026-08-19,True,carrier,True,False,False,False,False,True,False,False,,False,False,False,True,21,67
+fl1_li,LI,Liechtenstein,29505,,82000000004,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,10
+fliggsmobile_us,US,United States,310240 310260,310240GID1=6528 310240GID1=6916 310260GID1=6528 310260GID1=6916,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+foroyatele_fo,FO,Faroe Islands,28801,,82000000004,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,14
+free_fr,FR,France,20815,,82000000017,2026-08-12,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,23,58
+free_gp,GP,Guadeloupe,20815 34009,20815GID1=F007,82000000005,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,3
+free_mq,MQ,Martinique,20815 34004,20815GID1=F008,82000000005,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,4
+free_re,RE,Réunion,20815 64703,20815GID1=F2330002 64703GID1=F2330002,82000000007,2026-06-03,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,11
+freedommobile_ca,CA,Canada,302490,,82000000012,2026-06-17,True,carrier,True,False,False,False,False,True,False,False,,False,False,False,True,28,70
+gamma_gb,GB,United Kingdom,23420 23439,23420GID1=030B,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,24,55
+gci_us,US,United States,311370,,82000000004,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,7,16
+gibtel_gi,GI,Gibraltar,26601,,82000000005,2026-02-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+giffgaff_gb,GB,United Kingdom,23410,23410GID1=50 23410SPN=GIFFGAFF,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,20
+giga_sg,SG,Singapore,52505,52505SPN=giga,82000000006,2026-05-20,True,carrier,False,False,True,False,True,True,False,False,,False,False,False,True,16,33
+gigs_gb,GB,United Kingdom,23415,23415GID1=22 23415SPN=Gigs,82000000016,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,23,58
+gigsky_us,US,United States,22201 23801 24007 310380 312870,22201SPN=GigSky 23801GID1=6E 23801GID1=6F 24007GID1=6E 24007GID1=6F 310380GID1=6E 310380GID1=6F,82000000002,2026-05-20,False,framework,False,False,False,False,True,True,False,False,,False,False,False,False,0,4
+globe_ph,PH,Philippines,51502,,82000000005,2026-04-08,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,12,19
+gomobile_mt,MT,Malta,27821,,82000000009,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,11
+google5glab_us,US,United States,262830 262840,,82000000007,2026-07-01,True,carrier,True,False,True,True,True,True,False,False,,False,False,False,False,8,22
+grameenphone_bd,BD,Bangladesh,47001,,82000000005,2026-08-05,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,1,5
+gta_us,US,United States,310140,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+h3_at,AT,Austria,23205 23210 23214,,82000000012,2026-07-01,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,26,77
+h3_gb,GB,United Kingdom,23420 23494 23594,,82000000006,2026-05-20,True,carrier,True,False,False,False,False,True,False,False,,False,False,False,True,24,56
+h3_hk,HK,Hong Kong,45403,,82000000007,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,6,9
+h3_ie,IE,Ireland,27205,,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,14,37
+h3_lk,LK,Sri Lanka,41308,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,3
+h3_mo,MO,Macao,45503,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+h3_se,SE,Sweden,24002,,82000000009,2026-07-01,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,16,43
+h3g27202_ie,IE,Ireland,27202,,82000000011,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,18,41
+halebop_se,SE,Sweden,24001,24001SPN=halebop,82000000013,2026-07-29,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,28,54
+halotel_tz,TZ,"Tanzania, United Republic of",64009,64009SPN=Halotel,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+helium_us,US,United States,310240 310260,310240GID1=6907 310260GID1=6907,82000000017,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,148
+help_at,AT,Austria,23217 24007,23217GID1=42 24007GID1=42,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,8
+homobile_it,IT,Italy,22210,22210SPN=ho.,82000000008,2026-05-20,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,22,57
+hotmobile_il,IL,Israel,20404 42507,20404SPN=HOT MOBILE,82000000004,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,15
+ice_ca,CA,Canada,302620,,82000000005,2026-04-22,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,8
+ice_no,NO,Norway,24214,,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,14,27
+idc_md,MD,"Moldova, Republic of",25915,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,10,14
+idea_in,IN,India,40404 40407 40412 40414 40419 40422 40424 40444 40456 40478 40482 40487 40489 40570 405799 405845 405846 405847 405848 405849 405850 405851 405852 405853 405908 405909 405910 405911,,82000000011,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,9,28
+idmobile_gb,GB,United Kingdom,23420,23420GID1=0305,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,24,55
+iliad_it,IT,Italy,20815 22250,20815GID1=F003 22250GID1=F003,82000000004,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,9,24
+indosat_id,ID,Indonesia,51001,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+inland_us,US,United States,310580,,82000000006,2026-08-19,True,carrier,True,False,False,False,True,True,False,True,https://inland.dcc.ts43.entitlements.io3.com,True,False,False,True,6,29
+ipdirections_fr,FR,France,20837,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+iway_ch,CH,Switzerland,22873,,82000000004,2026-02-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,2
+iwireless_us,US,United States,310240 310260,310240GID1=6957 310260GID1=6957,82000000016,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,148
+izziatt_mx,MX,Mexico,334160,,82000000014,2026-07-22,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,13,36
+jamil_ke,KE,Kenya,63910,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,10
+jazz_pk,PK,Pakistan,41001,,82000000007,2026-05-27,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,3
+jazztel_es,ES,Spain,21403 21421,21403SPN=JAZZTEL 21421SPN=JAZZTEL,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,17,36
+jcommobile_jp,JP,Japan,44051,44051GID1=22,82000000014,2026-08-26,True,carrier,False,False,False,False,False,True,False,False,,False,False,True,True,37,95
+joonto_us,US,United States,310240 310260,310240GID1=6914 310240GID1=8525 310260GID1=6914 310260GID1=8525,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+jt_gb,GB,United Kingdom,23450,23450SPN=JT,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+kajeetmvno_us,US,United States,310240 310260,310240GID1=6136 310260GID1=6136,82000000015,2026-08-12,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,148
+kddi5gsa_jp,JP,Japan,44054,44054GID1=10,82000000017,2026-06-17,True,carrier,False,False,True,False,False,True,False,True,https://ent-aap-device.kddi.com/DEGDROIDInterfaceTS43,False,False,True,True,38,104
+kddi_jp,JP,Japan,44050 44051,44051GID1=10,82000000017,2026-06-17,True,carrier,False,False,False,False,False,True,False,True,https://ent-aap-device.kddi.com/DEGDROIDInterfaceTS43,False,False,True,True,38,103
+kddimvno5gsa_jp,JP,Japan,44054,,82000000013,2026-08-26,True,carrier,False,False,True,False,False,True,False,False,,False,False,False,True,34,66
+kddimvno_jp,JP,Japan,44051,,82000000013,2026-08-26,True,carrier,False,False,False,False,False,True,False,False,,False,False,False,True,34,65
+kena_it,IT,Italy,22207,,82000000005,2026-02-04,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,19,50
+koodo_ca,CA,Canada,302220 302221,302220GID1=4B4F 302221GID1=4B4F,82000000013,2026-06-22,True,carrier,True,True,True,False,False,True,False,False,,False,False,False,True,38,95
+kpn_nl,NL,Netherlands,20408 20469,,82000000012,2026-06-22,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,17,49
+kt_kr,KR,"Korea, Republic of",45002 45004 45008,,82000000004,2025-12-17,False,framework,False,False,False,False,True,True,False,False,,False,False,False,False,15,30
+ktrn_rw,RW,Rwanda,63517,63517IMSI=6351765 63517SPN=KTRN,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,8
+kyivstar_ua,UA,Ukraine,25503,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+lebara_de,DE,Germany,26214,26214SPN=Lebara,82000000004,2026-07-15,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,0,9
+lebara_fr,FR,France,20838,20838SPN=Lebara,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,7
+lebara_gb,GB,United Kingdom,23415 23487,23415SPN=LEBARA,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,15,30
+lebara_nl,NL,Netherlands,20417,,82000000005,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,3,11
+lebara_sa,SA,Saudi Arabia,42006,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,7
+legos_fr,FR,France,20817,208176=893317,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+lexvor_us,US,United States,310240 310260,310240GID1=6927 310260GID1=6927,82000000004,2026-08-12,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,41,135
+lguplus_kr,KR,"Korea, Republic of",45006,,82000000006,2026-06-10,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,22,39
+liberty_pr,PR,Puerto Rico,313790,,82000000012,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,42,136
+libertymobile_us,US,United States,310240 310260,310240GID1=6924 310260GID1=6924,82000000011,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+lifecell_ua,UA,Ukraine,25506,,82000000004,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,3,9
+limitless_us,US,United States,310340 310690 311600 312180,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,10
+linemo_jp,JP,Japan,44020,44020GID1=48FFFF,82000000013,2026-07-29,True,carrier,False,False,True,False,True,True,False,True,https://goose.mb.softbank.jp/api/v1/serviceentitlement,False,False,True,True,28,99
+lmt_lv,LV,Latvia,24701,,82000000007,2026-07-01,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,6,22
+lobster_es,ES,Spain,21410,21410IMSI=2141080000018 21410SPN=Lobster,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,6
+lowi_es,ES,Spain,21406,21406SPN=Lowi,82000000004,2026-06-01,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,12,26
+luckymobile_ca,CA,Canada,302610,302610GID1=42,82000000006,2026-07-08,True,carrier,False,False,True,False,False,True,False,False,,False,False,False,True,24,55
+lum_ca,CA,Canada,302780,302780GID1=5B,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,True,https://aes.mnc780.mcc302.pub.3gppnetwork.org,False,False,False,True,28,59
+lyca_us,US,United States,310240 310260,310240GID1=6C79 310260GID1=6C79,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,146
+lycamobile_dk,DK,Denmark,23812,,82000000004,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+lycamobile_gb,GB,United Kingdom,23430,23430SPN=LycaMobile,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,3
+lycamobile_pt,PT,Portugal,26804,26804SPN=LycaMobile,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,6
+lycamobile_ru,RU,Russian Federation,25013,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+lycamobile_se,SE,Sweden,24012,24012SPN=LycaMobile,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,6
+lycamobile_ug,UG,Uganda,64104 64126,64104SPN=Lycamobile 64126SPN=Lycamobile,82000000003,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+m1_sg,SG,Singapore,52503,,82000000016,2026-07-01,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,10,32
+magticom_ge,GE,Georgia,28202,,82000000005,2026-08-19,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,1,2
+manxcontract_im,IM,Isle of Man,23458,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,8
+manxprepaid_im,IM,Isle of Man,23458,23458IMSI=23458851,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,8
+masmovil_es,ES,Spain,21404,21404SPN=MASMOVIL,82000000009,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,10,25
+maxis_my,MY,Malaysia,50212 502142 502147 50217,,82000000009,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,7,24
+mci_ir,IR,"Iran, Islamic Republic of",43211,,82000000003,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+mediacom_us,US,United States,310599 311480,310599GID1=BA01700000000000 311480GID1=BA01700000000000,82000000020,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,True,True,True,47,212
+megacom_kg,KG,Kyrgyzstan,43705,437056=894375,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,6
+megamovil_mx,MX,Mexico,334050,334050GID1=4D454741FFFFFFFFFF,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,13,36
+melita_mt,MT,Malta,27877,27877SPN=Melita Mobile,82000000005,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,12
+membersmobile_us,US,United States,310240 310260,310240GID1=6926 310260GID1=6926,82000000011,2026-08-12,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+meo_pt,PT,Portugal,26806,,82000000010,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,8,37
+metropcs_us,US,United States,310160 310200 310210 310220 310230 310240 310250 310260 310270 310300 310310 310490 310530 310640 310660 310800 311490 311660 311882 312250,310160GID1=6D38 310200GID1=6D38 310210GID1=6D38 310220GID1=6D38 310230GID1=6D38 310240GID1=6D38 310250GID1=6D38 310260GID1=6D38 310270GID1=6D38 310300GID1=6D38 310310GID1=6D38 310490GID1=6D38 310530GID1=6D38 310640GID1=6D38 310660GID1=6D38 310800GID1=6D38 311490GID1=6D38 311660GID1=6D38 311882GID1=6D38 312250GID1=6D38,82000000017,2026-07-13,True,carrier,True,True,True,False,True,True,True,True,https://ts43.eas3.msg.t-mobile.com/google?,True,False,True,True,48,158
+mettel_us,US,United States,206018 20801 21407 314610 90101,206018GID1=8915518F 20801GID1=8915518F 21407GID1=8915518F 314610GID1=8915518F 90101GID1=8915518F,82000000004,2025-12-17,False,framework,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+miatel_ru,RU,Russian Federation,25016,25016SPN=Miatel,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+mobi_us,US,United States,302220 310040 311500 311588 313460,302220GID1=6624 310040GID1=6624 311500GID1=6624 311588GID1=6624 313460GID1=6624,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,11
+mobicom_mn,MN,Mongolia,42899,,82000000001,2026-05-13,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+mobifone_vn,VN,Viet Nam,45201,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+mobily_sa,SA,Saudi Arabia,42003,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,6,11
+moldcell_md,MD,"Moldova, Republic of",25902,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+monacotelecom_mc,MC,Monaco,21210,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,5
+movistar_ar,AR,Argentina,72207,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+movistar_cl,CL,Chile,73002,,82000000004,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,1,5
+movistar_co,CO,Colombia,732123,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+movistar_es,ES,Spain,21405 21407,,82000000015,2026-08-05,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,22,53
+movistar_mx,MX,Mexico,33403 334030,,82000000005,2026-04-22,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,13
+movistar_pe,PE,Peru,71606,,82000000001,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,5
+mtel_at,AT,Austria,23220,,82000000007,2026-08-12,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,7
+mtel_ba,BA,Bosnia and Herzegovina,21805,,82000000001,2026-02-11,True,carrier,False,False,False,False,True,False,False,False,,False,False,False,True,2,11
+mtel_ch,CH,Switzerland,22869,,82000000003,2026-06-01,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,8
+mtel_de,DE,Germany,26225,,82000000007,2026-08-12,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,7
+mtel_me,ME,Montenegro,29703,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+mtn_gh,GH,Ghana,62001,,82000000005,2026-01-28,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,0,2
+mtn_ng,NG,Nigeria,62130,,82000000004,2026-05-20,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+mtn_zm,ZM,Zambia,64502,,82000000003,2026-01-28,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,0,0
+mtx_lu,LU,Luxembourg,27002,,82000000002,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,7
+mtx_zz,ZZ,(International/MVNO/Test),90139,90139SPN=MTXC,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+mucho_ch,CH,Switzerland,22858,22858SPN=Mucho,82000000005,2026-07-15,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,2
+mvnoconnect_us,US,United States,310240 310260,310240GID1=6910 310260GID1=6910,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+naf2_no,NO,Norway,24201,24201GID1=30,82000000002,2026-06-22,False,framework,False,False,True,False,True,True,False,False,,False,False,False,False,0,3
+naf3_no,NO,Norway,24225 99940,99940SPN=BANSHEE,82000000001,2026-08-19,False,framework,False,False,True,False,True,True,False,False,,False,False,False,False,0,3
+naf_no,NO,Norway,24202,24202GID1=5DFFFFFFFFFFFFFF,82000000002,2025-12-17,False,framework,False,False,True,False,True,True,False,False,,False,False,False,False,0,3
+natcom_ht,HT,Haiti,37203,,82000000002,2026-03-11,True,carrier,False,False,False,False,True,False,False,False,,False,False,False,True,6,8
+ncell_np,NP,Nepal,42902,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+nema_fo,FO,Faroe Islands,27402 28802,27402IMSI=274029 27402SPN=Nema,82000000004,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,17
+neotel_nr,NR,Nauru,53603,53603SPN=Neotel,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,6
+netcomgroup_fr,FR,France,20804,,82000000005,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+netgsm_tr,TR,Türkiye,28613,28613SPN=Netgsm,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+netplus_ch,CH,Switzerland,22874,,82000000003,2026-04-01,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,1,6
+netwo_fr,FR,France,20839,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+newww_mx,MX,Mexico,334050,334050GID1=4E45575757FFFFFFFF,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,13,36
+nexphone_ch,CH,Switzerland,22865,22865GID1=4E657870686F6E65 22865SPN=Nexphone,82000000005,2026-02-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,2
+nextech_us,US,United States,312420,,82000000005,2026-06-17,True,carrier,True,False,False,False,True,True,False,True,https://aes.mnc420.mcc312.pub.3gppnetwork.org,False,False,False,True,9,26
+noble_us,US,United States,310240 310260,310240GID1=6923 310260GID1=6923,82000000011,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+nos_pt,PT,Portugal,26803 26897 26898 26899,,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,11,30
+nova_gr,GR,Greece,20210,,82000000005,2026-02-11,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,6,22
+nova_is,IS,Iceland,27411,,82000000005,2026-08-12,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,3,12
+ntplc_th,TH,Thailand,52002,52002GID1=02 52002SPN=my,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,6
+nymobile_us,US,United States,310240 310260,310240GID1=6529 310240GID1=6919 310260GID1=6529 310260GID1=6919,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+o2_cz,CZ,Czechia,23002,,82000000009,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,6,27
+o2_de,DE,Germany,26207 26208,,82000000016,2026-08-19,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,29,69
+o2_sk,SK,Slovakia,23106,,82000000008,2026-07-01,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,7,28
+o2postpaid_gb,GB,United Kingdom,23410,,82000000016,2026-08-19,True,carrier,True,True,True,False,True,True,False,True,https://ses.o2.co.uk:10024,False,False,True,True,27,69
+o2prepaid_de,DE,Germany,26207,26207IMSI=2620749,82000000014,2026-08-19,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,29,68
+o2prepaid_gb,GB,United Kingdom,23410,23410GID1=61 23410GID1=67 23410GID1=85 23410GID1=99,82000000010,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,26,58
+omantel_om,OM,Oman,42202 42204,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+onati_pf,PF,French Polynesia,54720,,82000000001,2026-05-20,False,framework,False,False,False,False,True,True,False,False,,False,False,False,False,0,1
+ondo_mn,MN,Mongolia,42833,,82000000005,2026-05-13,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+one5g_sl,SL,Sierra Leone,61908,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+one_al,AL,Albania,27601 27603,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+one_me,ME,Montenegro,29701,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,7
+onecall_no,NO,Norway,24205,,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,17,34
+only_yt,YT,Mayotte,64702,64702GID1=F004,82000000005,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,4
+ooredoo_kw,KW,Kuwait,41903,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,6,10
+ooredoo_mv,MV,Maldives,47202,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+ooredoo_qa,QA,Qatar,42701,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,7
+optima_it,IT,Italy,22210,22210SPN=Optima,82000000003,2026-05-20,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,22,57
+optimera_us,US,United States,313380,,82000000005,2026-02-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,4
+optus_au,AU,Australia,50502 50590,,82000000009,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,17,49
+orange_be,BE,Belgium,20610,,82000000012,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,29,51
+orange_eg,EG,Egypt,60201,,82000000006,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,4,6
+orange_es,ES,Spain,21403,,82000000012,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,28,61
+orange_fr,FR,France,20800 20801 20802,,82000000016,2026-07-22,True,carrier,True,True,True,False,True,True,False,True,https://aes.mnc001.mcc208.pub.3gppnetwork.org,False,True,False,True,43,85
+orange_gp,GP,Guadeloupe,34001,,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,14,23
+orange_lu,LU,Luxembourg,27099,,82000000005,2026-01-28,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,11,18
+orange_md,MD,"Moldova, Republic of",25901,,82000000004,2026-01-28,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,3
+orange_ml,ML,Mali,61002,,82000000006,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,4,6
+orange_pl,PL,Poland,26003,,82000000010,2026-07-13,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,20,47
+orange_re,RE,Réunion,64700,,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,13,19
+orange_ro,RO,Romania,22610,,82000000010,2026-06-10,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,14,32
+orange_sk,SK,Slovakia,23101,,82000000008,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,12,35
+orange_sn,SN,Senegal,60801,,82000000006,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,4,6
+orange_tn,TN,Tunisia,60501,,82000000006,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,4,6
+orangentn_fr,FR,France,20801,20801GID1=01,82000000013,2026-07-22,True,carrier,True,True,True,False,True,True,False,True,https://aes.mnc001.mcc208.pub.3gppnetwork.org,False,True,True,True,43,97
+otz_us,US,United States,311560,311560SPN=OTZ Wireless,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,11
+ourtelekom_sb,SB,Solomon Islands,54001,,82000000002,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,5
+oxio_us,US,United States,314720 334170,,82000000005,2026-02-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,2
+paradisemobile_bm,BM,Bermuda,350007,,82000000005,2026-02-11,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,11
+paradisemobile_ky,KY,Cayman Islands,34607,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,2,5
+partner_il,IL,Israel,42501 42510,,82000000004,2026-02-04,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,12
+pcmobilebell_ca,CA,Canada,302610,302610GID1=40,82000000005,2026-06-10,True,carrier,False,False,True,False,False,True,False,False,,False,False,False,True,23,51
+pelephone_il,IL,Israel,42503,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,12
+pinebelt_us,US,United States,311670,,82000000002,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+play_pl,PL,Poland,26006,,82000000008,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,18,49
+plintron_it,IT,Italy,22254,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+plintron_us,US,United States,310240 310260,310240GID1=6902 310240GID1=7031 310240GID1=7032 310260GID1=6902 310260GID1=7031 310260GID1=7032,82000000016,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,148
+plus_pl,PL,Poland,26001,,82000000009,2026-04-22,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,12,36
+pmci_pw,PW,Palau,55299,55299SPN=PMCI,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+pn_xx,XX,XX,99900 999000 999001 999002 999003 999004 999005 999006 999007 999008 999009 99901 999010 999011 999012 999013 999014 999015 999016 999017 999018 999019 99902 999020 999021 999022 999023 999024 999025 999026 999027 999028 999029 99903 999030 999031 999032 999033 999034 999035 999036 999037 999038 999039 99904 999040 999041 999042 999043 999044 999045 999046 999047 999048 999049 99905 999050 999051 999052 999053 999054 999055 999056 999057 999058 999059 99906 999060 999061 999062 999063 999064 999065 999066 999067 999068 999069 99907 999070 999071 999072 999073 999074 999075 999076 999077 999078 999079 99908 999080 999081 999082 999083 999084 999085 999086 999087 999088 999089 99909 999090 999091 999092 999093 999094 999095 999096 999097 999098 999099 99910 999100 999101 999102 999103 999104 999105 999106 999107 999108 999109 99911 999110 999111 999112 999113 999114 999115 999116 999117 999118 999119 99912 999120 999121 999122 999123 999124 999125 999126 999127 999128 999129 99913 999130 999131 999132 999133 999134 999135 999136 999137 999138 999139 99914 999140 999141 999142 999143 999144 999145 999146 999147 999148 999149 99915 999150 999151 999152 999153 999154 999155 999156 999157 999158 999159 99916 999160 999161 999162 999163 999164 999165 999166 999167 999168 999169 99917 999170 999171 999172 999173 999174 999175 999176 999177 999178 999179 99918 999180 999181 999182 999183 999184 999185 999186 999187 999188 999189 99919 999190 999191 999192 999193 999194 999195 999196 999197 999198 999199 99920 999200 999201 999202 999203 999204 999205 999206 999207 999208 999209 99921 999210 999211 999212 999213 999214 999215 999216 999217 999218 999219 99922 999220 999221 999222 999223 999224 999225 999226 999227 999228 999229 99923 999230 999231 999232 999233 999234 999235 999236 999237 999238 999239 99924 999240 999241 999242 999243 999244 999245 999246 999247 999248 999249 99925 999250 999251 999252 999253 999254 999255 999256 999257 999258 999259 99926 999260 999261 999262 999263 999264 999265 999266 999267 999268 999269 99927 999270 999271 999272 999273 999274 999275 999276 999277 999278 999279 99928 999280 999281 999282 999283 999284 999285 999286 999287 999288 999289 99929 999290 999291 999292 999293 999294 999295 999296 999297 999298 999299 99930 999300 999301 999302 999303 999304 999305 999306 999307 999308 999309 99931 999310 999311 999312 999313 999314 999315 999316 999317 999318 999319 99932 999320 999321 999322 999323 999324 999325 999326 999327 999328 999329 99933 999330 999331 999332 999333 999334 999335 999336 999337 999338 999339 99934 999340 999342 999343 999344 999345 999346 999347 999348 999349 99935 999350 999351 999352 999353 999354 999355 999356 999357 999358 999359 99936 999360 999361 999362 999363 999364 999365 999366 999367 999368 999369 99937 999370 999371 999372 999373 999374 999375 999376 999377 999378 999379 99938 999380 999381 999382 999383 999384 999385 999386 999387 999388 999389 99939 999390 999391 999392 999393 999394 999395 999396 999397 999398 999399 999400 999401 999402 999403 999404 999405 999406 999407 999408 999409 99941 999410 999411 999412 999413 999414 999415 999416 999417 999418 999419 99942 999420 999421 999422 999423 999424 999425 999426 999427 999428 999429 99943 999430 999431 999432 999433 999434 999435 999436 999437 999438 999439 99944 999440 999441 999442 999443 999444 999445 999446 999447 999448 999449 99945 999450 999451 999452 999453 999454 999455 999456 999457 999458 999459 99946 999460 999461 999462 999463 999464 999465 999466 999467 999468 999469 99947 999470 999471 999472 999473 999474 999475 999476 999477 999478 999479 99948 999480 999481 999482 999483 999484 999485 999486 999487 999488 999489 99949 999490 999491 999492 999493 999494 999495 999496 999497 999498 999499 99950 999500 999501 999502 999503 999504 999505 999506 999507 999508 999509 99951 999510 999511 999512 999513 999514 999515 999516 999517 999518 999519 99952 999520 999521 999522 999523 999524 999525 999526 999527 999528 999529 99953 999530 999531 999532 999533 999534 999535 999536 999537 999538 999539 99954 999540 999541 999542 999543 999544 999545 999546 999547 999548 999549 99955 999550 999551 999552 999553 999554 999555 999556 999557 999558 999559 99956 999560 999561 999562 999563 999564 999565 999566 999567 999568 999569 99957 999570 999571 999572 999573 999574 999575 999576 999577 999578 999579 99958 999580 999581 999582 999583 999584 999585 999586 999587 999588 999589 99959 999590 999591 999592 999593 999594 999595 999596 999597 999598 999599 99960 999600 999601 999602 999603 999604 999605 999606 999607 999608 999609 99961 999610 999611 999612 999613 999614 999615 999616 999617 999618 999619 99962 999620 999621 999622 999623 999624 999625 999626 999627 999628 999629 99963 999630 999631 999632 999633 999634 999635 999636 999637 999638 999639 99964 999640 999641 999642 999643 999644 999645 999646 999647 999648 999649 99965 999650 999651 999652 999653 999654 999655 999656 999657 999658 999659 99966 999660 999661 999662 999663 999664 999665 999666 999667 999668 999669 99967 999670 999671 999672 999673 999674 999675 999676 999677 999678 999679 99968 999680 999681 999682 999683 999684 999685 999686 999687 999688 999689 99969 999690 999691 999692 999693 999694 999695 999696 999697 999698 999699 99970 999700 999701 999702 999703 999704 999705 999706 999707 999708 999709 99971 999710 999711 999712 999713 999714 999715 999716 999717 999718 999719 99972 999720 999721 999722 999723 999724 999725 999726 999727 999728 999729 99973 999730 999731 999732 999733 999734 999735 999736 999737 999738 999739 99974 999740 999741 999742 999743 999744 999745 999746 999747 999748 999749 99975 999750 999751 999752 999753 999754 999755 999756 999757 999758 999759 99976 999760 999761 999762 999763 999764 999765 999766 999767 999768 999769 99977 999770 999771 999772 999773 999774 999775 999776 999777 999778 999779 99978 999780 999781 999782 999783 999784 999785 999786 999787 999788 999789 99979 999790 999791 999792 999793 999794 999795 999796 999797 999798 999799 99980 999800 999801 999802 999803 999804 999805 999806 999807 999808 999809 99981 999810 999811 999812 999813 999814 999815 999816 999817 999818 999819 99982 999820 999821 999822 999823 999824 999825 999826 999827 999828 999829 99983 999830 999831 999832 999833 999834 999835 999836 999837 999838 999839 99984 999840 999841 999842 999843 999844 999845 999846 999847 999848 999849 99985 999850 999851 999852 999853 999854 999855 999856 999857 999858 999859 99986 999860 999861 999862 999863 999864 999865 999866 999867 999868 999869 99987 999870 999871 999872 999873 999874 999875 999876 999877 999878 999879 99988 999880 999881 999882 999883 999884 999885 999886 999887 999888 999889 99989 999890 999891 999892 999893 999894 999895 999896 999897 999898 999899 99990 999900 999901 999902 999903 999904 999905 999906 999907 999908 999909 99991 999910 999911 999912 999913 999914 999915 999916 999917 999918 999919 99992 999920 999921 999922 999923 999924 999925 999926 999927 999928 999929 99993 999930 999931 999932 999933 999934 999935 999936 999937 999938 999939 99994 999940 999941 999942 999943 999944 999945 999946 999947 999948 999949 99995 999950 999951 999952 999953 999954 999955 999956 999957 999958 999959 99996 999960 999961 999962 999963 999964 999965 999966 999967 999968 999969 99997 999970 999971 999972 999973 999974 999975 999976 999977 999978 999979 99998 999980 999981 999982 999983 999984 999985 999986 999987 999988 999989 99999 999990 999991 999992 999993 999994 999995 999996 999997 999998 999999,,82000000004,2026-06-03,True,carrier,False,False,True,False,True,True,False,False,,False,False,False,False,5,10
+popcorn_us,US,United States,302220 311588 313460,302220GID1=7911 302220SPN=Popcorn 311588GID1=7911 311588SPN=Popcorn 313460GID1=7911 313460SPN=Popcorn,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+post_lu,LU,Luxembourg,27001,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,17
+postemobile_it,IT,Italy,22233,22233SPN=PosteMobile,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,5
+postmobile_ie,IE,Ireland,27201,27201GID1=0A 27201IMSI=27201110 27201SPN=An Post Mobile,82000000003,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+povo5gsa_jp,JP,Japan,44054,44054GID1=26,82000000016,2026-08-26,True,carrier,False,False,True,False,False,True,False,True,https://ent-aap-device.kddi.com/DEGDROIDInterfaceTS43,False,False,True,True,38,102
+povo_jp,JP,Japan,44051,44051GID1=26,82000000016,2026-08-26,True,carrier,False,False,False,False,False,True,False,True,https://ent-aap-device.kddi.com/DEGDROIDInterfaceTS43,False,False,True,True,38,101
+profile1_zz,ZZ,(International/MVNO/Test),00111,,82000000004,2025-12-17,True,carrier,False,False,True,False,True,False,False,False,,False,False,False,True,6,9
+profile2_zz,ZZ,(International/MVNO/Test),00112,,82000000004,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,6,8
+profile3_zz,ZZ,(International/MVNO/Test),00113,,82000000004,2025-12-17,True,carrier,False,False,False,False,True,False,False,False,,False,False,False,True,6,8
+profile4_zz,ZZ,(International/MVNO/Test),00114,,82000000004,2025-12-17,True,carrier,False,False,False,True,True,True,False,False,,False,False,False,True,6,10
+proximus_be,BE,Belgium,20601,,82000000016,2026-08-19,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,16,41
+ptvtelecom_es,ES,Spain,21403 21406 21415,21403SPN=PTV Telecom 21406SPN=PTV Telecom 21415SPN=PTV Telecom,82000000005,2026-05-27,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,0,9
+publicmobile_ca,CA,Canada,302220 302221,302220GID1=4D4F 302221GID1=4D4F,82000000011,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,37,91
+pwg_us,US,United States,310240 310260,310240GID1=4358 310240GID1=6901 310240GID1=6909 310240GID1=7531 310260GID1=4358 310260GID1=6901 310260GID1=6909 310260GID1=7531,82000000016,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,148
+qlink_us,US,United States,310240 310260,310240GID1=514C 310260GID1=514C,82000000015,2026-08-12,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,148
+rain_za,ZA,South Africa,65538 65573,65538SPN=rain 65573SPN=rain,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,10
+rakuten_jp,JP,Japan,20801 44011,20801SPN=Rakuten,82000000011,2026-05-06,True,carrier,False,False,False,False,False,True,False,False,,False,False,False,True,19,57
+rcell_sy,SY,Syrian Arab Republic,41750,41750SPN=Rcell,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+reach_us,US,United States,310240 310260,310240GID1=6523 310240GID1=6972 310260GID1=6523 310260GID1=6972,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+reallycommunications_us,US,United States,310240 310260,310240GID1=6913 310240GID1=8550 310260GID1=6913 310260GID1=8550,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+redpocketatt_us,US,United States,310280 310410 310950 311180,310280GID1=4201 310410GID1=4201 310950GID1=4201 311180GID1=4201,82000000010,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,46,144
+redpockettmo_us,US,United States,310260,310260GID1=4201,82000000007,2026-05-20,True,carrier,True,False,True,False,True,True,False,False,,True,False,False,True,25,56
+republicwireless_us,US,United States,310240 310260,310240GID1=6134 310240GID1=6905 310260GID1=6134 310260GID1=6905,82000000015,2026-08-12,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,148
+rjio_in,IN,India,405840 405854 405855 405856 405857 405858 405859 405860 405861 405862 405863 405864 405865 405866 405867 405868 405869 405870 405871 405872 405873 405874,,82000000014,2026-06-17,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,30,66
+robi_bd,BD,Bangladesh,47002,,82000000004,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,2
+roccstar_us,US,United States,310240 310260,310240GID1=6801 310240GID1=6918 310260GID1=6801 310260GID1=6918,82000000014,2026-08-12,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+rockisland_us,US,United States,310240 310260,310240GID1=6137 310240GID1=6514 310260GID1=6137 310260GID1=6514,82000000015,2026-08-12,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,148
+rockwireless_us,US,United States,311530,311530GID1=FF 311530IMSI=3115300006 311530SPN=Rock Wireless,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+rogers5g_ca,CA,Canada,302720,302720GID1=A4,82000000019,2026-07-22,True,carrier,True,True,True,False,False,True,False,False,,False,False,True,True,29,85
+rogers_ca,CA,Canada,302720,,82000000016,2026-08-12,True,carrier,True,True,True,False,False,True,False,False,,False,False,True,True,28,84
+rogerswpn_ca,CA,Canada,302721,,82000000007,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,False,22,65
+salt_ch,CH,Switzerland,22803,,82000000007,2026-06-22,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,5,24
+salt_li,LI,Liechtenstein,29502,,82000000004,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,13
+sasktel_ca,CA,Canada,302681 302780 302781,302780GID1=5A,82000000011,2026-06-10,True,carrier,True,False,False,False,True,True,False,True,https://aes.mnc780.mcc302.pub.3gppnetwork.org,False,False,False,True,28,59
+selam_tr,TR,Türkiye,28622,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+setar_aw,AW,Aruba,36301,36301IMSI=3630100,82000000006,2026-02-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,3
+sfr_fr,FR,France,20809 20810,,82000000013,2026-07-01,True,carrier,True,True,True,False,True,True,False,True,https://aes.mnc010.mcc208.pub.3gppnetwork.org,False,False,False,True,23,57
+simba_sg,SG,Singapore,52510,,82000000012,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,5,17
+siminn_is,IS,Iceland,27401,,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,7,18
+simple_us,US,United States,310240 310260,310240GID1=534D 310260GID1=534D,82000000013,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,140
+simyo_es,ES,Spain,21403 21419,21403SPN=simyo 21419SPN=simyo,82000000012,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,28,59
+singtel_sg,SG,Singapore,52501 52502,,82000000010,2026-07-01,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,26,54
+sipgate_de,DE,Germany,26222,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,6
+skinny_nz,NZ,New Zealand,53005,53005SPN=Skinny,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,25
+skt_kr,KR,"Korea, Republic of",45005,,82000000005,2026-06-10,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,29,45
+sky_gb,GB,United Kingdom,23457 24007,24007GID1=0C,82000000009,2026-07-22,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,19,37
+sky_ie,IE,Ireland,27225,27225GID1=0D 27225SPN=Sky IE,82000000005,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,18
+sky_mx,MX,Mexico,334050,334050GID1=424C5545FFFFFFFFFF,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,13,36
+skylo_zz,ZZ,(International/MVNO/Test),90198,,82000000003,2025-11-19,False,framework,False,False,False,False,True,True,False,False,,False,False,True,False,0,1
+slt_lk,LK,Sri Lanka,41301,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+smart_ph,PH,Philippines,51503,,82000000005,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,7,16
+smartfren_id,ID,Indonesia,51009 51028,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+smartless_us,US,United States,310240 310260,310240GID1=6922 310260GID1=6922,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+smartone_hk,HK,Hong Kong,45406 45415 45417,,82000000005,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,6,11
+smarty_gb,GB,United Kingdom,23420,23420GID1=0309,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,24,55
+softbank_jp,JP,Japan,44020,,82000000014,2026-06-24,True,carrier,False,False,True,False,False,True,False,True,https://goose.mb.softbank.jp/api/v1/serviceentitlement,False,False,True,True,28,100
+solnet_ch,CH,Switzerland,22872,22872SPN=SolNet,82000000005,2026-08-12,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+solomobile_ca,CA,Canada,302610,302610GID1=3F,82000000005,2026-07-08,False,framework,False,False,True,False,True,True,False,False,,False,False,False,True,24,45
+spark_nz,NZ,New Zealand,53005,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,25
+spectrum_us,US,United States,311480 313450,311480GID1=BA01490000000000 313450GID1=BA01490000000000,82000000029,2026-08-19,True,carrier,True,True,True,False,False,True,False,False,,False,False,True,True,58,230
+spectrumbusiness_us,US,United States,310240,310240GID1=BA02,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,True,https://ts43.eas3.msg.t-mobile.com/google?,True,False,True,True,48,151
+spectrummso_us,US,United States,314020,,82000000007,2025-12-17,False,framework,False,False,True,False,True,True,False,False,,False,False,False,False,4,27
+spectrummsotest_us,US,United States,310014 311400,,82000000003,2025-12-17,False,framework,False,False,True,False,True,True,False,False,,False,False,False,False,0,11
+spitfire_gb,GB,United Kingdom,23405,23405SPN=Spitfire,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,5
+spmtelecom_pm,PM,Saint Pierre and Miquelon,30801 30803,,82000000007,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,15,19
+sprint_us,US,United States,310120 312530,310120GID1=000001 310120GID1=FFFFFF 312530GID1=000001 312530GID1=FFFFFF,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,False,8,60
+sprintprepaid_us,US,United States,310120 312530,310120GID1=000004 312530GID1=000004,82000000003,2025-12-17,False,framework,False,False,False,False,True,True,False,False,,False,False,False,False,7,40
+sprintwholesale_us,US,United States,310120 312530,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,False,8,52
+spusu_at,AT,Austria,23217 24007,24007GID1=41,82000000007,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,8,17
+spusu_ch,CH,Switzerland,22871 24007,24007GID1=52,82000000005,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,8,13
+spusu_de,DE,Germany,24007 26221,24007GID1=50,82000000003,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,8,17
+spusu_gb,GB,United Kingdom,23440 24007,24007GID1=48,82000000007,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,8,13
+spusu_it,IT,Italy,22256 24007,24007GID1=40,82000000005,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,8,17
+ssimobile_ca,CA,Canada,302480,302480GID1=01 302480IMSI=302480017,82000000006,2026-03-25,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,4,4
+starhub_sg,SG,Singapore,52505,,82000000009,2026-06-17,True,carrier,True,False,True,False,False,True,False,False,,False,False,False,True,18,49
+stc_bh,BH,Bahrain,42604,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,7
+stc_kw,KW,Kuwait,41904,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,15
+stc_sa,SA,Saudi Arabia,42001,,82000000007,2026-01-28,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,6,16
+strata_us,US,United States,312290,,82000000007,2026-07-01,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,7,10
+sunrise_ch,CH,Switzerland,22802,,82000000007,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,20,44
+superdrug_gb,GB,United Kingdom,23420,23420GID1=0310,82000000006,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,24,55
+swisscom_ch,CH,Switzerland,22801,,82000000014,2026-07-15,True,carrier,True,True,True,False,True,True,False,True,https://ses.node.mnc001.mcc228.pub.3gppnetwork.org:10024,True,False,False,True,26,91
+swisscom_li,LI,Liechtenstein,29501,,82000000008,2026-06-24,True,carrier,True,False,False,False,True,True,False,True,https://ses.node.mnc001.mcc228.pub.3gppnetwork.org:10024,True,False,False,True,26,89
+swisscommvno_ch,CH,Switzerland,22801,22801SPN=CoopMobile 22801SPN=M-Budget Mobile 22801SPN=Wingo,82000000008,2026-06-24,True,carrier,True,False,False,False,True,True,False,True,https://ses.node.mnc001.mcc228.pub.3gppnetwork.org:10024,True,False,False,True,25,87
+t26_zz,ZZ,(International/MVNO/Test),90146,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,6
+t2_si,SI,Slovenia,29364,,82000000008,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,12
+talkmobile_gb,GB,United Kingdom,23415,23415GID1=C1,82000000011,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,15,32
+tango_lu,LU,Luxembourg,27077,,82000000005,2026-02-11,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,14
+tango_us,US,United States,22201 23453 313770,22201IMSI=22201307130 22201IMSI=22201307131 22201IMSI=22201307132 22201IMSI=22201307133 22201IMSI=22201307134 22201IMSI=22201307135 22201IMSI=22201307136 22201IMSI=22201307137 22201IMSI=22201307138 22201IMSI=222013071390 22201IMSI=222013071391 22201IMSI=222013071392 22201IMSI=222013071393 22201IMSI=222013071394 22201IMSI=22201309670 22201IMSI=22201344000 22201IMSI=22201344001 22201IMSI=22201344002,82000000007,2026-02-11,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,6,10
+tbaytel_ca,CA,Canada,302720,302720GID1=BA,82000000008,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,27,69
+tchibo_at,AT,Austria,23217 24007,23217GID1=44 24007GID1=44,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,8
+tchibo_de,DE,Germany,26207,26207IMSI=26207500,82000000006,2026-05-20,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,19,37
+tcl_gb,GB,United Kingdom,23427,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,5
+tcl_nl,NL,Netherlands,20407,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,5
+tdc_dk,DK,Denmark,23801 23810,,82000000014,2026-07-01,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,21,42
+telavox_be,BE,Belgium,20614,20614GID1=0E 20614SPN=Telavox,82000000007,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,12,20
+telavox_se,SE,Sweden,24006 24050,24006GID1=0E 24006SPN=Telavox 24050GID1=0E 24050SPN=Telavox,82000000007,2026-08-05,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,7,18
+telcel_mx,MX,Mexico,334020,,82000000007,2026-06-01,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,20,48
+telco_re,RE,Réunion,20815 64703,20815GID1=F006 64703GID1=F006,82000000005,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,4
+tele2_ee,EE,Estonia,24803,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,10,27
+tele2_lt,LT,Lithuania,24603,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,10,26
+tele2_lv,LV,Latvia,24702,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,10,28
+tele2_se,SE,Sweden,24007,,82000000009,2026-08-05,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,26,46
+telecom_ar,AR,Argentina,72234 722340 722341,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+teleena_zz,ZZ,(International/MVNO/Test),90154,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,5
+telekom_de,DE,Germany,26201 26206,,82000000016,2026-08-12,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,28,80
+telekom_gr,GR,Greece,20201,,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,8,29
+telekom_hr,HR,Croatia,21901 21920,21901GID1=01 21901GID1=02 21901GID1=03 21901GID1=99 21901GID1=FF 21901SPN=HT HR 21901SPN=HT-Campus 21901SPN=R&D Network 21901SPN=T-Mobile HR 21920GID1=01 21920GID1=02 21920GID1=03 21920GID1=99 21920GID1=FF 21920SPN=HT HR 21920SPN=HT-Campus 21920SPN=R&D Network 21920SPN=T-Mobile HR,82000000008,2026-05-27,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,9,40
+telekom_hu,HU,Hungary,21630,,82000000005,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,13,31
+telekom_me,ME,Montenegro,29702,,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,9,16
+telekom_mk,MK,North Macedonia,29401,,82000000007,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,7,18
+telekom_pl,PL,Poland,26002,,82000000007,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,16,51
+telekom_ro,RO,Romania,22603,,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,12,40
+telekom_rs,RS,Serbia,22003,,82000000004,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,4
+telekom_si,SI,Slovenia,29341,,82000000006,2026-02-04,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,6,28
+telekom_sk,SK,Slovakia,23102,,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,12,44
+telemach_hr,HR,Croatia,21902,,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,12,32
+telemach_si,SI,Slovenia,29370,,82000000005,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,16
+telenet_be,BE,Belgium,20605,,82000000009,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,8,26
+telenor_dk,DK,Denmark,23802,,82000000009,2026-07-29,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,21,43
+telenor_no,NO,Norway,24201,,82000000007,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,19,37
+telenor_pk,PK,Pakistan,41006,,82000000004,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,2
+telenor_se,SE,Sweden,24004 24008 24024,24004SPN=TELENOR SE 24024SPN=TELENOR SE,82000000009,2026-07-01,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,24,46
+telia_dk,DK,Denmark,23820,,82000000008,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,17,37
+telia_ee,EE,Estonia,24801,,82000000010,2026-07-29,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,21,44
+telia_fi,FI,Finland,24491,,82000000010,2026-07-29,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,23,44
+telia_lt,LT,Lithuania,24601,,82000000009,2026-07-29,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,21,39
+telia_no,NO,Norway,24202,,82000000012,2026-07-29,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,22,47
+telia_se,SE,Sweden,24001,,82000000015,2026-07-29,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,28,56
+teliab2b_se,SE,Sweden,24001,24001GID1=2BFFFFFFFFFFFFFFFFFF,82000000008,2026-07-29,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,28,56
+telkomsel_id,ID,Indonesia,51010,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+tello_us,US,United States,310240 310260,310240GID1=6941 310260GID1=6941,82000000017,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,148
+telna_zz,ZZ,(International/MVNO/Test),22201 23410 29505 310840 334020 42402 52501 52505 71204 72418 732123,22201GID1=636F6E6E65637431 23410GID1=636F6E6E65637431 29505GID1=636F6E6E65637431 310840GID1=636F6E6E65637431 310840SPN=Connect 334020GID1=636F6E6E65637431 42402GID1=636F6E6E65637431 52501GID1=636F6E6E65637431 52505GID1=636F6E6E65637431 71204GID1=636F6E6E65637431 72418GID1=636F6E6E65637431 732123GID1=636F6E6E65637431,82000000003,2026-05-20,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,4,5
+telnyx_be,BE,Belgium,20601,20601IMSI=20601880250 20601IMSI=20601880259 20601IMSI=20601880269,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,8
+telnyx_us,US,United States,311210 313260,313260IMSI=31326010200,82000000004,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,7
+telstra_au,AU,Australia,50501 50539 50571 50572,,82000000015,2026-06-24,True,carrier,True,True,True,False,True,True,False,True,https://telentprod.mobile.telstra.com/gsma/,False,False,True,True,24,77
+telus_ca,CA,Canada,302220 302221,302220GID1=5455 302221GID1=5455,82000000015,2026-06-17,True,carrier,True,True,True,False,False,True,False,False,,False,False,False,True,38,95
+tesco_gb,GB,United Kingdom,23410,23410GID1=0A,82000000005,2026-03-11,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,18,40
+test001_amarisoft,ZZ,(International/MVNO/Test),00101,00101GID1=ABCD2025,82000000011,2026-07-13,True,carrier,True,True,True,True,True,True,True,True,https://ts43.eas3.msg.t-mobile.com/google?,True,False,True,True,48,152
+test001_zz,ZZ,(International/MVNO/Test),00101,,82000000010,2026-03-18,True,carrier,True,False,True,True,True,True,False,False,,False,False,False,True,14,27
+textnow_us,US,United States,314730,,82000000004,2026-03-25,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+tgs_us,US,United States,314440,314440SPN=TGS,82000000003,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,1,3
+three_dk,DK,Denmark,23806,,82000000011,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,19,43
+thumbcellular_us,US,United States,311480,311480GID1=BA00050000000000,82000000018,2026-07-15,True,carrier,True,False,False,False,False,True,False,False,,False,False,False,True,49,202
+tigo_co,CO,Colombia,732103 732111,,82000000004,2026-04-29,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,1,2
+tim_br,BR,Brazil,72402 72403 72404,,82000000006,2026-07-01,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,11
+tim_it,IT,Italy,22201,,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,19,49
+tinkoff_ru,RU,Russian Federation,25062,25062SPN=Tinkoff,82000000003,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+tmobile_at,AT,Austria,23203 23204 23207,,82000000008,2026-01-28,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,20,47
+tmobile_cz,CZ,Czechia,23001,,82000000011,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,14,46
+tmobile_nl,NL,Netherlands,20416 20420,20416GID1=4E4C 20416GID1=8F 20416GID1=FF 20416SPN=Odido,82000000009,2026-06-10,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,28,68
+tmobile_us,US,United States,310026 310160 310200 310210 310220 310230 310240 310250 310260 310270 310300 310310 310490 310530 310640 310660 310800 311490 311882 312250,,82000000021,2026-07-13,True,carrier,True,True,True,False,True,True,False,True,https://ts43.eas3.msg.t-mobile.com/google?,True,False,True,True,47,167
+tmobileprivate_us,US,United States,311660,,82000000005,2026-03-18,False,framework,False,True,True,False,True,True,False,False,,False,False,False,False,3,7
+tmoericssonlab_us,US,United States,262800,,82000000013,2026-07-13,True,carrier,True,True,True,False,True,True,False,True,https://ts43.eas3.msg.t-mobile.com/google?,True,False,True,True,47,154
+tmomvno_nl,NL,Netherlands,20416,20416GID1=2F 20416GID1=5F 20416SPN=BEN NL,82000000009,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,28,68
+tmomvno_us,US,United States,310240 310260,310240GID1=4753 310240GID1=4D4B 310240GID1=6135 310240GID1=7033 310240GID1=7477 310240GID1=7A73 310260GID1=4753 310260GID1=4D4B 310260GID1=6135 310260GID1=7033 310260GID1=7477 310260GID1=7A73,82000000015,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,151
+tnm_mw,MW,Malawi,65001,65001SPN=TNM,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+tracfoneatt_us,US,United States,310280 310410 310950 311180,310280GID1=DDFF 310280GID1=DEFF 310410GID1=DDFF 310410GID1=DEFF 310950GID1=DDFF 310950GID1=DEFF 311180GID1=DDFF 311180GID1=DEFF,82000000010,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,46,148
+tracfonetmo_us,US,United States,310240 310260,310240GID1=DDFF 310240GID1=DEFF 310260GID1=DDFF 310260GID1=DEFF,82000000009,2026-05-20,True,carrier,True,False,True,False,True,True,False,False,,True,False,False,True,28,68
+tracfoneverizon_us,US,United States,310590 310591 310592 310593 310594 310595 310596 310597 310598 310599 311480,310590GID1=BA01270000000000 310591GID1=BA01270000000000 310592GID1=BA01270000000000 310593GID1=BA01270000000000 310594GID1=BA01270000000000 310595GID1=BA01270000000000 310596GID1=BA01270000000000 310597GID1=BA01270000000000 310598GID1=BA01270000000000 310599GID1=BA01270000000000 311480GID1=BA01270000000000,82000000024,2026-08-19,True,carrier,True,False,False,False,False,True,False,False,,False,False,True,True,60,224
+transatel_fr,FR,France,90137,,82000000006,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,4
+truemove_th,TH,Thailand,52000 52004,52000GID1=01,82000000005,2026-03-18,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,7,15
+truphone_us,US,United States,310300,310300GID1=547275554B3030656E,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,2,15
+truphone_zz,ZZ,(International/MVNO/Test),20404 20408 20433 20809 20812 21427 23410 23425 26033 26242 27227 45400 45408 50538 72455,20404GID1=547275554B3030656E 20404IMSI=20404794 20408GID1=547275554B3030656E 20433GID1=547275554B3030656E 20809GID1=547275554B3030656E 20812GID1=547275554B3030656E 21427GID1=547275554B3030656E 23410GID1=547275554B3030656E 23425GID1=547275554B3030656E 26033GID1=547275554B3030656E 26242GID1=547275554B3030656E 27227GID1=547275554B3030656E 45400GID1=547275554B3030656E 45408GID1=547275554B3030656E 50538GID1=547275554B3030656E 72455GID1=547275554B3030656E,82000000007,2026-05-27,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,2,10
+truphonemvno_zz,ZZ,(International/MVNO/Test),20404 20408 20433 20809 20812 21427 22876 23410 23425 26033 26242 27227 310300 45400 45408 50538 72455,20404GID1=314747454E45524943 20408GID1=314747454E45524943 20433GID1=314747454E45524943 20809GID1=314747454E45524943 20812GID1=314747454E45524943 21427GID1=314747454E45524943 22876GID1=314747454E45524943 23410GID1=314747454E45524943 23425GID1=314747454E45524943 26033GID1=314747454E45524943 26242GID1=314747454E45524943 27227GID1=314747454E45524943 310300GID1=314747454E45524943 45400GID1=314747454E45524943 45408GID1=314747454E45524943 50538GID1=314747454E45524943 72455GID1=314747454E45524943,82000000001,2026-05-27,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,2,10
+tstar_tw,TW,"Taiwan, Province of China",46689,,82000000008,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,16,33
+turkcell_tr,TR,Türkiye,28601,,82000000005,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,3,9
+turktelekom_tr,TR,Türkiye,28603,,82000000005,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,10
+tusass_gl,GL,Greenland,29001,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,6
+twm_tw,TW,"Taiwan, Province of China",46697,,82000000012,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,22,52
+u264a_ca,CA,Canada,302760,302760GID1=F1,82000000009,2026-06-17,True,carrier,False,False,False,False,True,True,False,False,,True,False,False,False,16,58
+u264a_us,US,United States,310240,310240GID1=4280,82000000012,2026-07-13,True,carrier,False,True,False,False,True,True,False,False,,True,False,True,False,40,97
+u264ab_ca,CA,Canada,302690,302690GID1=F1,82000000005,2026-06-22,True,carrier,False,False,False,False,True,True,False,True,https://egw.wireless.bell.ca:9014/DEGDROIDInterfaceTS43/,True,False,False,False,19,56
+u264ao_at,AT,Austria,23210,23210GID1=040D,82000000008,2026-07-01,True,carrier,False,False,False,False,True,True,False,False,,True,False,False,False,24,69
+u264ap_at,AT,Austria,23210,23210GID1=040E,82000000008,2026-07-01,True,carrier,False,False,False,False,True,True,False,False,,True,False,False,False,24,69
+ubixatt_mx,MX,Mexico,334050,334050GID1=55424958FFFFFFFFFF,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,13,36
+ufone_pk,PK,Pakistan,41003,,82000000001,2026-05-27,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+ultra_us,US,United States,310240 310260,310240GID1=354D 310240GID1=364D 310240GID1=4153 310240GID1=4154 310240GID1=4155 310240GID1=6132 310240GID1=6903 310240GID1=756D 310240GID1=7601 310260GID1=354D 310260GID1=364D 310260GID1=4153 310260GID1=4154 310260GID1=4155 310260GID1=6132 310260GID1=6903 310260GID1=756D 310260GID1=7601,82000000019,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,46,149
+umobile_my,MY,Malaysia,50218,,82000000007,2026-03-18,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,7,19
+unifi_my,MY,Malaysia,50211 502153,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,10
+unifique_br,BR,Brazil,72429,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+unionwireless_us,US,United States,310020,,82000000004,2026-05-20,True,carrier,True,False,False,False,True,True,False,True,https://aes.mnc020.mcc310.pub.3gppnetwork.org/des/ts43,False,False,False,True,6,13
+unitedwireless_us,US,United States,311650,311650SPN=United Wireless,82000000006,2026-08-19,True,carrier,True,False,False,False,True,True,False,True,https://aes.mnc650.mcc311.pub.3gppnetwork.org,False,False,False,True,6,17
+uqmobile5gsa_jp,JP,Japan,44054,44054GID1=20,82000000016,2026-08-26,True,carrier,False,False,True,False,False,True,False,True,https://ent-aap-device.kddi.com/DEGDROIDInterfaceTS43,False,False,True,True,38,102
+uqmobile_jp,JP,Japan,44050 44051,44050GID1=20 44051GID1=20,82000000017,2026-08-26,True,carrier,False,False,False,False,False,True,False,True,https://ent-aap-device.kddi.com/DEGDROIDInterfaceTS43,False,False,True,True,38,101
+uscc_us,US,United States,20404 311220 311221 311222 311223 311224 311225 311226 311227 311228 311229 311580 311581 311582 311583 311584 311585 311586 311587 311588 311589,20404SPN=U.S. CELLULAR,82000000006,2026-06-17,True,carrier,True,False,False,False,True,True,False,True,https://aes.mnc580.mcc311.pub.3gppnetwork.org/rcs-entitlement,False,False,False,True,31,82
+utc_us,US,United States,31020,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+verizon_generic_mvno_us,US,United States,311480,311480GID1=BA01750000000000,82000000007,2026-08-19,True,carrier,True,False,True,True,True,True,True,False,,False,False,False,True,64,241
+verizon_us,US,United States,20404 310004 310590 310599 310890 311270 311280 311480,20404GID1=BAE0000000000000,82000000036,2026-08-19,True,carrier,True,True,True,False,False,True,False,False,,False,False,True,True,66,273
+verizononsitelte_us,US,United States,999480,999480GID1=D100000000000000,82000000003,2025-12-17,False,framework,False,False,True,False,True,True,False,False,,False,False,False,False,3,5
+verymobile_it,IT,Italy,22288 22299,22288GID1=00000099 22299GID1=00000099,82000000007,2026-07-15,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,18,54
+viaero_us,US,United States,310450,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,10
+vianova_it,IT,Italy,22201 22249,22201SPN=vianova,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,1,6
+videotron_ca,CA,Canada,302500,302500GID1=53,82000000015,2026-08-19,True,carrier,True,False,False,False,False,True,False,False,,False,False,False,True,21,68
+viettel_vn,VN,Viet Nam,45204,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,5
+vimla_se,SE,Sweden,24006,,82000000009,2026-07-01,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,24,51
+vinaphone_vn,VN,Viet Nam,45202,,82000000005,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,3,7
+virgin_ca,CA,Canada,302610,302610GID1=3E,82000000010,2026-07-08,True,carrier,True,False,True,False,False,True,False,True,https://egw.wireless.bell.ca:9014/DEGDROIDInterfaceTS43/,False,False,False,True,42,85
+virgin_gb,GB,United Kingdom,20601 20620 23430 23438,20601GID1=28000000 20620GID1=28000000 23430GID1=28000000,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,23,45
+virgin_kw,KW,Kuwait,41909,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,1,3
+virgin_us,US,United States,310120 312530,310120GID1=000003 312530GID1=000003,82000000003,2025-12-17,False,framework,False,False,False,False,True,True,False,False,,False,False,False,False,7,40
+visible_us,US,United States,311480,311480GID1=BAE1000000000000,82000000022,2026-08-19,True,carrier,True,False,False,False,False,True,False,False,,False,False,True,False,57,222
+visiblev_us,US,United States,310590 311480,310590GID1=BAE2000000000000 311480GID1=BAE2000000000000,82000000021,2026-08-19,True,carrier,True,False,False,False,False,True,False,False,,False,False,True,True,58,229
+viti_pf,PF,French Polynesia,54705,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,8
+vivacom_bg,BG,Bulgaria,28403,,82000000004,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,12
+vivo_br,BR,Brazil,72406 72410 72411 72423,,82000000006,2026-07-01,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,6,15
+vodafone_al,AL,Albania,27602,,82000000005,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,1,7
+vodafone_au,AU,Australia,50503,,82000000010,2026-06-17,True,carrier,True,False,True,False,True,True,False,False,,False,False,False,True,17,46
+vodafone_ck,CK,Cook Islands,54801,,82000000002,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,9
+vodafone_cz,CZ,Czechia,23003,,82000000005,2026-07-22,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,11,36
+vodafone_de,DE,Germany,26202,,82000000016,2026-08-19,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,24,67
+vodafone_es,ES,Spain,21401,,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,18,41
+vodafone_gb,GB,United Kingdom,23415 23491,,82000000019,2026-08-19,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,True,21,64
+vodafone_gr,GR,Greece,20205,,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,9,28
+vodafone_hu,HU,Hungary,21670,,82000000006,2026-08-05,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,6,28
+vodafone_ie,IE,Ireland,27201,,82000000006,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,25,53
+vodafone_in,IN,India,40401 40405 40411 40413 40415 40420 40427 40430 40443 40446 40460 40484 40486 40488 40566 40567 405750 405751 405752 405753 405754 405755 405756,,82000000013,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,11,31
+vodafone_is,IS,Iceland,27402 27403,,82000000005,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,9,22
+vodafone_it,IT,Italy,22210,,82000000007,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,22,56
+vodafone_nl,NL,Netherlands,20404,,82000000011,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,22,70
+vodafone_nz,NZ,New Zealand,53001,,82000000006,2026-09-07,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,15
+vodafone_om,OM,Oman,42206,,82000000005,2026-02-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,7
+vodafone_pf,PF,French Polynesia,54715,54715SPN=Vodafone PF,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,6
+vodafone_pt,PT,Portugal,26801 26891 26892,,82000000005,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,7,26
+vodafone_qa,QA,Qatar,42702,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,10
+vodafone_ro,RO,Romania,22601,,82000000006,2026-06-01,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,10,32
+vodafone_tr,TR,Türkiye,28602,,82000000005,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,16,28
+vodafonelab_de,DE,Germany,26209,,82000000017,2026-08-19,True,carrier,True,True,True,False,True,True,False,False,,False,False,False,False,24,65
+walmart_mx,MX,Mexico,334140,334140SPN=BAIT,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+webbing_hk,HK,Hong Kong,20404 20801 22201 26006 311588 42402 45400 45412 45435 72418 90101 90131,20404GID1=536E617065 20801GID1=536E617065 22201GID1=536E617065 26006GID1=536E617065 311588GID1=536E617065 42402GID1=536E617065 45400GID1=536E617065 45412GID1=536E617065 72418GID1=536E617065 90131GID1=536E617065,82000000006,2026-07-29,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,8
+wecom_il,IL,Israel,42509,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+wim_mx,MX,Mexico,334050,334050GID1=4F4E45FFFFFFFFFFFF,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,13,36
+wind_do,DO,Dominican Republic,37005,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,5
+windtre_it,IT,Italy,22288 22299,,82000000007,2026-07-15,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,18,55
+wireless_us,US,United States,310240 310260,310240GID1=6917 310260GID1=6917,82000000011,2026-07-13,True,carrier,True,True,True,False,True,True,False,False,,True,False,True,True,45,145
+wom_cl,CL,Chile,73009,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+worldmobile_us,US,United States,310420,,82000000004,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,12
+worldmobile_zz,ZZ,(International/MVNO/Test),90191,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,9
+xfera_es,ES,Spain,21404,214046=89344,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+xfinity2_us,US,United States,310590 310591 310599 311480 311481 311482 311483 311484 311485 311486 311487 311488 311489 314240,310590GID1=BA01640000000000 310591GID1=BA01640000000000 310599GID1=BA01640000000000 311480GID1=BA01640000000000 311481GID1=BA01640000000000 311482GID1=BA01640000000000 311483GID1=BA01640000000000 311484GID1=BA01640000000000 311485GID1=BA01640000000000 311486GID1=BA01640000000000 311487GID1=BA01640000000000 311488GID1=BA01640000000000 311489GID1=BA01640000000000,82000000023,2026-07-15,True,carrier,True,True,True,False,True,True,False,False,,False,False,True,True,57,236
+xfinity_us,US,United States,310590 310591 310599 311480 311481 311482 311483 311484 311485 311486 311487 311488 311489,310590GID1=BA01450000000000 310591GID1=BA01450000000000 310599GID1=BA01450000000000 311480GID1=BA01450000000000 311481GID1=BA01450000000000 311482GID1=BA01450000000000 311483GID1=BA01450000000000 311484GID1=BA01450000000000 311485GID1=BA01450000000000 311486GID1=BA01450000000000 311487GID1=BA01450000000000 311488GID1=BA01450000000000 311489GID1=BA01450000000000,82000000025,2026-07-15,True,carrier,True,True,True,False,False,True,False,False,,False,False,True,True,57,238
+xfinitymso_us,US,United States,314200,,82000000007,2026-07-08,False,framework,False,False,True,False,True,True,False,False,,False,False,False,False,1,30
+xphone_il,IL,Israel,42521,,82000000002,2026-03-18,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,False,0,2
+yas_tz,TZ,"Tanzania, United Republic of",64002,,82000000003,2026-03-11,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,3,5
+yes_my,MY,Malaysia,502152,,82000000004,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,5,9
+yesss_at,AT,Austria,23212,,82000000007,2026-08-26,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,18,43
+yettel_bg,BG,Bulgaria,28405,,82000000005,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,2,8
+yettel_hu,HU,Hungary,21601,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,21
+yettel_rs,RS,Serbia,22001,,82000000004,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,0,3
+yoigo_es,ES,Spain,21404,21404SPN=Cablemovil 21404SPN=EUSKALTEL 21404SPN=GUUK 21404SPN=LEBARA 21404SPN=LLAMAYA 21404SPN=Lycamobile 21404SPN=Pepephone 21404SPN=Populoos 21404SPN=R 21404SPN=RACC 21404SPN=RACCtel+ 21404SPN=SIMple 21404SPN=Sweno 21404SPN=Tu Operador 21404SPN=Virgin telco 21404SPN=Yoigo 21404SPN=mobilR 21404SPN=telecable,82000000007,2026-08-19,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,10,25
+yomobile_mx,MX,Mexico,334050,334050GID1=594FFFFFFFFFFFFFFF,82000000009,2026-05-20,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,13,36
+zain_bh,BH,Bahrain,42602,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,16
+zain_kw,KW,Kuwait,41902,,82000000003,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,4,11
+zain_sa,SA,Saudi Arabia,42004,,82000000004,2025-12-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,5,19
+zeop_re,RE,Réunion,64704,,82000000003,2025-12-17,True,carrier,False,False,False,False,True,True,False,False,,False,False,False,True,4,6
+zong_pk,PK,Pakistan,41004,,82000000001,2026-05-27,False,framework,False,False,False,False,True,True,False,False,,False,False,False,True,0,1
+ztar_us,US,United States,310280 310410 310950 311180,310280GID1=4102 310410GID1=4102 310950GID1=4102 311180GID1=4102,82000000010,2026-06-17,True,carrier,True,False,False,False,True,True,False,False,,False,False,False,True,46,143

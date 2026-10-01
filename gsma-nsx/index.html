@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pixel IMS 국가별 현황</title>
+<style>
+:root{--bg:#fafaf9;--fg:#1c1917;--muted:#78716c;--line:#e7e5e4;--card:#fff;--accent:#2563eb;--yes:#15803d;--yes-bg:#dcfce7;--no:#a8a29e;--warn:#b45309;--warn-bg:#fef3c7}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c0a09;--fg:#e7e5e4;--muted:#a8a29e;--line:#292524;--card:#1c1917;--accent:#60a5fa;--yes:#4ade80;--yes-bg:#14532d;--no:#57534e;--warn:#fbbf24;--warn-bg:#451a03}}
+:root[data-theme="dark"]{--bg:#0c0a09;--fg:#e7e5e4;--muted:#a8a29e;--line:#292524;--card:#1c1917;--accent:#60a5fa;--yes:#4ade80;--yes-bg:#14532d;--no:#57534e;--warn:#fbbf24;--warn-bg:#451a03}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 16px 64px}
+h1{font-size:1.6rem;margin:0 0 4px}h2{font-size:1.15rem;margin:36px 0 10px}
+.sub{color:var(--muted);font-size:.9rem;word-break:break-all}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:20px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.kpi b{display:block;font-size:1.5rem;font-variant-numeric:tabular-nums}.kpi span{color:var(--muted);font-size:.82rem}
+.note{background:var(--warn-bg);color:var(--fg);border-left:3px solid var(--warn);padding:10px 14px;border-radius:6px;font-size:.9rem}
+.note b{color:var(--warn)}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+input,select{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg)}
+.tw{overflow:auto;max-height:65vh;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.86rem;font-variant-numeric:tabular-nums}
+th,td{padding:6px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+td:last-child{white-space:normal;min-width:120px}
+th{position:sticky;top:0;background:var(--card);cursor:pointer;user-select:none;font-weight:600}
+th:hover{color:var(--accent)}tr:last-child td{border-bottom:0}
+tr.c{cursor:pointer}tr.c:hover td{background:color-mix(in srgb,var(--accent) 7%,transparent)}
+td.n{text-align:right}
+.y{color:var(--yes);font-weight:600}.x{color:var(--no)}
+.bar{display:inline-block;height:6px;border-radius:3px;background:var(--accent);vertical-align:middle;margin-left:6px;opacity:.7}
+.pill{display:inline-block;padding:0 7px;border-radius:9px;background:var(--yes-bg);color:var(--yes);font-size:.78rem}
+ul{padding-left:20px}li{margin:3px 0;overflow-wrap:anywhere}code{font-size:.85em;word-break:break-all}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+<h1>Pixel 베타 펌웨어 · 국가/통신사별 IMS 설정 현황</h1>
+<div class="sub" id="build"></div>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="note"><b>해석 시 주의</b> — 펌웨어 안에는 GSMA NSX(Network Settings Exchange)를 직접 가리키는 키·문자열이 없습니다(CarrierSettings·텔레포니 APK dex 전수 검색 결과). 아래 표는 NSX가 배포하는 대상인 <b>통신사별 IMS 설정(VoLTE/VoWiFi/VoNR, SIP·IPsec·ePDG 파라미터, TS.43 Entitlement)</b>이 펌웨어에 실제로 반영된 범위를 보여주는 <b>간접 지표</b>입니다. 어떤 값이 NSX 경유로 들어왔는지는 펌웨어만으로는 구분할 수 없습니다.</div>
+
+<h2>국가별 요약</h2>
+<div class="controls">
+  <input id="q" placeholder="국가/ISO 검색" aria-label="국가 검색">
+  <select id="flt" aria-label="필터">
+    <option value="">전체 국가</option>
+    <option value="prof">전용 프로필 있는 국가</option>
+    <option value="novolte">프로필 있으나 VoLTE 없음</option>
+    <option value="vonr">VoNR 활성 통신사 있음</option>
+    <option value="others">others.pb 에만 존재 (APN 위주)</option>
+  </select>
+</div>
+<div class="tw"><table id="ct"></table></div>
+<p class="sub">행을 클릭하면 해당 국가의 통신사별 상세가 아래에 표시됩니다. 숫자 = 해당 기능이 활성화된 통신사 프로필 수.</p>
+
+<h2 id="dh">통신사 상세</h2>
+<div class="controls"><input id="q2" placeholder="통신사/MCCMNC 검색" aria-label="통신사 검색"></div>
+<div class="tw"><table id="dt"></table></div>
+
+<h2>방법</h2>
+<ul>
+  <li>OTA: <code>cubs_beta-ota-cp41.260831.011-f191b637.zip</code> (SHA-256 접두사 f191b637 검증) → <code>payload-dumper-go</code> 로 <code>product</code>, <code>system_ext</code>, <code>modem</code> 추출 → <code>fsck.erofs --extract</code>.</li>
+  <li>Pixel은 <code>CarrierConfig.apk</code> assets XML이 아니라 <code>/product/etc/CarrierSettings/*.pb</code>(통신사별 protobuf 644개 + <code>carrier_list.pb</code> MCC/MNC 매핑 + <code>others.pb</code> 소규모 통신사 680개)를 사용합니다. <code>apns-conf.xml</code> 도 이미지에 없으며 APN 역시 이 .pb 안에 들어 있습니다.</li>
+  <li>공식 proto 스키마 없이 wire-format 디코더로 직접 파싱(<code>tools/</code>). 값이 통신사 파일에 없으면 <code>default.pb</code> → AOSP 프레임워크 기본값 순으로 적용값을 산출.</li>
+  <li>국가는 파일명 접미사(ISO-3166), <code>zz</code> = 국제/MVNO/테스트. VoNR = <code>vonr_enabled_bool</code>, NR SA = <code>carrier_nr_availabilities_int_array</code> 에 2 포함, TS.43 = <code>imsserviceentitlement.entitlement_server_url_string</code> 존재, “IMS 상세” = ims./iwlan./imsvoice. 등 IMS 파라미터 오버라이드 5개 이상.</li>
+  <li>모뎀: MediaTek 모뎀(<code>PIXELMODEM</code> 컨테이너, MCF 파일)으로 Qualcomm MBN 없음. 운영자별 MCF <code>MTK_OPOTA_SBPID_*</code> 406종, <code>MTK_NWOTA_SBPID_*</code> 51종 확인(SBPID→통신사 매핑표는 비공개라 국가 매핑 불가).</li>
+  <li>원본 데이터: <a href="data/countries.csv">countries.csv</a> · <a href="data/carriers.csv">carriers.csv</a> · <a href="data/data.json">data.json</a></li>
+</ul>
+</main>
+<script>
+const F=[['volte','VoLTE'],['vowifi','VoWiFi'],['vonr','VoNR'],['nr_sa','NR SA'],['vilte','ViLTE'],['ts43_entitlement','TS.43'],['satellite','위성'],['ims_detailed','IMS 상세']];
+let D,sortC={k:'carriers',d:-1},sortD={k:'carrier',d:1},cur=null;
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+fetch('data/data.json').then(r=>r.json()).then(d=>{D=d;init()});
+function init(){
+  document.getElementById('build').textContent='빌드: '+D.build;
+  const c=D.carriers,co=D.countries,n=f=>co.filter(x=>x[f]>0).length;
+  const k=[[c.length,'통신사 프로필(.pb)'],[co.filter(x=>x.carriers).length,'프로필 보유 국가'],[co.length,'전체 국가(others 포함)'],[n('volte'),'VoLTE 활성 국가'],[n('vowifi'),'VoWiFi 활성 국가'],[n('vonr'),'VoNR 활성 국가'],[c.filter(x=>x.ts43_entitlement).length,'TS.43 Entitlement 통신사']];
+  document.getElementById('kpis').innerHTML=k.map(([v,l])=>`<div class="kpi"><b>${v}</b><span>${l}</span></div>`).join('');
+  ['q','flt'].forEach(i=>document.getElementById(i).oninput=drawC);
+  document.getElementById('q2').oninput=drawD;
+  drawC();drawD();
+}
+function srt(a,s){return a.sort((x,y)=>{let p=x[s.k],q=y[s.k];if(typeof p==='boolean'){p=+p;q=+q}return (p>q?1:p<q?-1:0)*s.d})}
+function hdr(cols,s,fn){return '<tr>'+cols.map(([k,l])=>`<th data-k="${k}" onclick="${fn}('${k}')">${l}${s.k===k?(s.d>0?' ▲':' ▼'):''}</th>`).join('')+'</tr>'}
+function sc(k){sortC=sortC.k===k?{k,d:-sortC.d}:{k,d:typeof D.countries[0][k]==='string'?1:-1};drawC()}
+function sd(k){sortD=sortD.k===k?{k,d:-sortD.d}:{k,d:1};drawD()}
+function drawC(){
+  const q=document.getElementById('q').value.toLowerCase(),f=document.getElementById('flt').value;
+  let r=D.countries.filter(x=>(x.country+x.country_iso).toLowerCase().includes(q));
+  if(f==='prof')r=r.filter(x=>x.carriers);if(f==='novolte')r=r.filter(x=>x.carriers&&!x.volte);
+  if(f==='vonr')r=r.filter(x=>x.vonr);if(f==='others')r=r.filter(x=>!x.carriers);
+  const cols=[['country_iso','ISO'],['country','국가'],['carriers','프로필'],...F,['others_pb_entries','others.pb'],['mcc','MCC']];
+  const t=document.getElementById('ct');
+  t.innerHTML=hdr(cols,sortC,'sc')+srt(r,sortC).map(x=>`<tr class="c" onclick="pick('${x.country_iso}')">`+cols.map(([k])=>{
+    const v=x[k];if(k==='country'||k==='country_iso'||k==='mcc')return `<td>${esc(v)}</td>`;
+    if(k==='carriers')return `<td class="n">${v}<span class="bar" style="width:${Math.min(60,v/2+(v?2:0))}px"></span></td>`;
+    return `<td class="n ${v?'y':'x'}">${v||'·'}</td>`}).join('')+'</tr>').join('');
+}
+function pick(iso){cur=iso;document.getElementById('dh').textContent='통신사 상세 — '+iso;drawD();document.getElementById('dh').scrollIntoView({behavior:'smooth'})}
+function drawD(){
+  const q=document.getElementById('q2').value.toLowerCase();
+  let r=D.carriers.filter(x=>(!cur||x.country_iso===cur)&&(x.carrier+x.mcc_mnc).toLowerCase().includes(q));
+  const cols=[['carrier','통신사'],['country_iso','ISO'],['mcc_mnc','MCC/MNC'],['volte','VoLTE'],['vowifi','VoWiFi'],['vonr','VoNR'],['nr_sa','NR SA'],['vilte','ViLTE'],['cross_sim_calling','Cross-SIM'],['ts43_entitlement','TS.43'],['satellite','위성'],['ims_apn','IMS APN'],['ims_param_keys','IMS키'],['total_keys','전체키'],['config_updated','갱신']];
+  const t=document.getElementById('dt');
+  t.innerHTML=hdr(cols,sortD,'sd')+srt(r,sortD).map(x=>'<tr>'+cols.map(([k])=>{const v=x[k];
+    if(typeof v==='boolean')return `<td class="${v?'y':'x'}">${v?'●':'·'}</td>`;
+    if(typeof v==='number')return `<td class="n">${v}</td>`;
+    return `<td>${esc(v)}</td>`}).join('')+'</tr>').join('');
+  if(cur&&!r.length){const o=D.others.filter(x=>x.country_iso===cur);t.innerHTML='<tr><th>others.pb ID</th><th>APN 수</th><th>IMS APN</th><th>VoLTE</th><th>키 수</th></tr>'+o.map(x=>`<tr><td>${esc(x.id)}</td><td class="n">${x.apns}</td><td class="${x.ims_apn?'y':'x'}">${x.ims_apn?'●':'·'}</td><td class="${x.volte?'y':'x'}">${x.volte?'●':'·'}</td><td class="n">${x.keys}</td></tr>`).join('')}
+}
+</script>
+</body>
+</html>
