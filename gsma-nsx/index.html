@@ -44,6 +44,14 @@ a{color:var(--accent)}
 
 <div class="note"><b>해석 시 주의</b> — 펌웨어 안에는 GSMA NSX(Network Settings Exchange)를 직접 가리키는 키·문자열이 없습니다(CarrierSettings·텔레포니 APK dex 전수 검색 결과). 아래 표는 NSX가 배포하는 대상인 <b>통신사별 IMS 설정(VoLTE/VoWiFi/VoNR, SIP·IPsec·ePDG 파라미터, TS.43 Entitlement)</b>이 펌웨어에 실제로 반영된 범위를 보여주는 <b>간접 지표</b>입니다. 어떤 값이 NSX 경유로 들어왔는지는 펌웨어만으로는 구분할 수 없습니다.</div>
 
+<h2>NSX 관련 신호</h2>
+<ul>
+  <li><b>중국 3사·홍콩 CSL</b> (보도된 첫 NSX VoLTE 개방 대상): <code>cmcc_cn</code>·<code>ct_cn</code>·<code>cu_cn</code> 2026-08-12, <code>csl_hk</code> 2026-07-01 갱신. 키 2~8개의 최소 프로필에 <code>carrier_volte_available_bool=true</code>(중국 3사는 NR SA도 허용).</li>
+  <li><b>“VoLTE 기본 꺼짐, 사용자가 설정에서 켜는” 프로필 113개 / 65개국</b>: <code>carrier_volte_available_bool=true</code> + <code>enhanced_4g_lte_on_by_default_bool=false</code>. 이 중 102개가 2026-03-11·18·25 세 번에 걸쳐 일괄 추가됐고, 대부분 키 2~6개의 템플릿형 구성입니다. NSX 등록 통신사에 대해 보도된 동작(기본 꺼짐, 사용자 활성화)과 일치하는 패턴입니다.</li>
+  <li><b>한국 3사</b>는 두 패턴 어디에도 해당하지 않습니다(VoLTE 플래그 없음).</li>
+  <li>CarrierSettings 앱에는 펌웨어와 별도로 서버에서 통신사 목록·설정 .pb를 내려받아 적용하는 경로(<code>CronetDownloaderService</code>, <code>downloadAndApplyUpdatesIfAvailable</code>)가 있습니다. 출시 이후 NSX 대상 통신사가 펌웨어 업데이트 없이 늘어날 수 있다는 뜻입니다.</li>
+</ul>
+
 <h2>국가별 요약</h2>
 <div class="controls">
   <input id="q" placeholder="국가/ISO 검색" aria-label="국가 검색">
@@ -51,6 +59,7 @@ a{color:var(--accent)}
     <option value="">전체 국가</option>
     <option value="prof">전용 프로필 있는 국가</option>
     <option value="novolte">프로필 있으나 VoLTE 없음</option>
+    <option value="optin">VoLTE 수동 활성 통신사 있음</option>
     <option value="vonr">VoNR 활성 통신사 있음</option>
     <option value="others">others.pb 에만 존재 (APN 위주)</option>
   </select>
@@ -73,14 +82,14 @@ a{color:var(--accent)}
 </ul>
 </main>
 <script>
-const F=[['volte','VoLTE'],['vowifi','VoWiFi'],['vonr','VoNR'],['nr_sa','NR SA'],['vilte','ViLTE'],['ts43_entitlement','TS.43'],['satellite','위성'],['ims_detailed','IMS 상세']];
+const F=[['volte','VoLTE'],['volte_user_optin','VoLTE 수동'],['vowifi','VoWiFi'],['vonr','VoNR'],['nr_sa','NR SA'],['vilte','ViLTE'],['ts43_entitlement','TS.43'],['satellite','위성'],['ims_detailed','IMS 상세']];
 let D,sortC={k:'carriers',d:-1},sortD={k:'carrier',d:1},cur=null;
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 fetch('data/data.json').then(r=>r.json()).then(d=>{D=d;init()});
 function init(){
   document.getElementById('build').textContent='빌드: '+D.build;
   const c=D.carriers,co=D.countries,n=f=>co.filter(x=>x[f]>0).length;
-  const k=[[c.length,'통신사 프로필(.pb)'],[co.filter(x=>x.carriers).length,'프로필 보유 국가'],[co.length,'전체 국가(others 포함)'],[n('volte'),'VoLTE 활성 국가'],[n('vowifi'),'VoWiFi 활성 국가'],[n('vonr'),'VoNR 활성 국가'],[c.filter(x=>x.ts43_entitlement).length,'TS.43 Entitlement 통신사']];
+  const k=[[c.length,'통신사 프로필(.pb)'],[co.filter(x=>x.carriers).length,'프로필 보유 국가'],[co.length,'전체 국가(others 포함)'],[n('volte'),'VoLTE 활성 국가'],[c.filter(x=>x.volte_user_optin).length,'VoLTE 기본 꺼짐(수동 활성) 통신사'],[n('vowifi'),'VoWiFi 활성 국가'],[n('vonr'),'VoNR 활성 국가'],[c.filter(x=>x.ts43_entitlement).length,'TS.43 Entitlement 통신사']];
   document.getElementById('kpis').innerHTML=k.map(([v,l])=>`<div class="kpi"><b>${v}</b><span>${l}</span></div>`).join('');
   ['q','flt'].forEach(i=>document.getElementById(i).oninput=drawC);
   document.getElementById('q2').oninput=drawD;
@@ -94,7 +103,7 @@ function drawC(){
   const q=document.getElementById('q').value.toLowerCase(),f=document.getElementById('flt').value;
   let r=D.countries.filter(x=>(x.country+x.country_iso).toLowerCase().includes(q));
   if(f==='prof')r=r.filter(x=>x.carriers);if(f==='novolte')r=r.filter(x=>x.carriers&&!x.volte);
-  if(f==='vonr')r=r.filter(x=>x.vonr);if(f==='others')r=r.filter(x=>!x.carriers);
+  if(f==='vonr')r=r.filter(x=>x.vonr);if(f==='optin')r=r.filter(x=>x.volte_user_optin);if(f==='others')r=r.filter(x=>!x.carriers);
   const cols=[['country_iso','ISO'],['country','국가'],['carriers','프로필'],...F,['others_pb_entries','others.pb'],['mcc','MCC']];
   const t=document.getElementById('ct');
   t.innerHTML=hdr(cols,sortC,'sc')+srt(r,sortC).map(x=>`<tr class="c" onclick="pick('${x.country_iso}')">`+cols.map(([k])=>{
@@ -106,7 +115,7 @@ function pick(iso){cur=iso;document.getElementById('dh').textContent='통신사 
 function drawD(){
   const q=document.getElementById('q2').value.toLowerCase();
   let r=D.carriers.filter(x=>(!cur||x.country_iso===cur)&&(x.carrier+x.mcc_mnc).toLowerCase().includes(q));
-  const cols=[['carrier','통신사'],['country_iso','ISO'],['mcc_mnc','MCC/MNC'],['volte','VoLTE'],['vowifi','VoWiFi'],['vonr','VoNR'],['nr_sa','NR SA'],['vilte','ViLTE'],['cross_sim_calling','Cross-SIM'],['ts43_entitlement','TS.43'],['satellite','위성'],['ims_apn','IMS APN'],['ims_param_keys','IMS키'],['total_keys','전체키'],['config_updated','갱신']];
+  const cols=[['carrier','통신사'],['country_iso','ISO'],['mcc_mnc','MCC/MNC'],['volte','VoLTE'],['volte_user_optin','VoLTE 수동'],['vowifi','VoWiFi'],['vonr','VoNR'],['nr_sa','NR SA'],['vilte','ViLTE'],['cross_sim_calling','Cross-SIM'],['ts43_entitlement','TS.43'],['satellite','위성'],['ims_apn','IMS APN'],['ims_param_keys','IMS키'],['total_keys','전체키'],['config_updated','갱신']];
   const t=document.getElementById('dt');
   t.innerHTML=hdr(cols,sortD,'sd')+srt(r,sortD).map(x=>'<tr>'+cols.map(([k])=>{const v=x[k];
     if(typeof v==='boolean')return `<td class="${v?'y':'x'}">${v?'●':'·'}</td>`;

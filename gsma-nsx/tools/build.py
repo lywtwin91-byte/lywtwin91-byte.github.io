@@ -8,7 +8,7 @@ import pycountry
 D,OUT=sys.argv[1].rstrip('/')+'/',sys.argv[2]
 BUILD=sys.argv[3] if len(sys.argv)>3 else ''
 # AOSP CarrierConfigManager 기본값 (default.pb 에 없을 때)
-FW={'carrier_volte_available_bool':False,'carrier_wfc_ims_available_bool':False,
+FW={'carrier_volte_available_bool':False,'enhanced_4g_lte_on_by_default_bool':True,'carrier_wfc_ims_available_bool':False,
     'vonr_enabled_bool':False,'carrier_vt_available_bool':False,
     'carrier_cross_sim_ims_available_bool':False,'imssms.sms_over_ims_supported_bool':True,
     'carrier_nr_availabilities_int_array':[1,2],'satellite_attach_supported_bool':False,
@@ -45,6 +45,8 @@ for p in sorted(glob.glob(D+'*.pb')):
       'config_version':r['version'],
       'config_updated':datetime.datetime.utcfromtimestamp(r['updated']).date().isoformat() if r['updated'] else '',
       'volte':volte,'volte_src':src,
+      # VoLTE 지원은 켜져 있지만 '4G 통화(VoLTE)' 토글 기본값이 꺼짐 -> 사용자가 설정에서 직접 켜야 함
+      'volte_user_optin':bool(volte) and eff(c,'enhanced_4g_lte_on_by_default_bool')[0] is False,
       'vowifi':eff(c,'carrier_wfc_ims_available_bool')[0],
       'vonr':eff(c,'vonr_enabled_bool')[0],
       'nr_sa':2 in (nr or []),
@@ -81,17 +83,17 @@ with open(OUT+'/carriers.csv','w',newline='',encoding='utf-8-sig') as f:
 agg=collections.OrderedDict()
 for r in sorted(rows,key=lambda r:r['country']):
     a=agg.setdefault(r['country_iso'],{'country_iso':r['country_iso'],'country':r['country'],'carriers':0,
-       'volte':0,'vowifi':0,'vonr':0,'nr_sa':0,'vilte':0,'ts43_entitlement':0,'satellite':0,'ims_detailed':0,
+       'volte':0,'volte_user_optin':0,'vowifi':0,'vonr':0,'nr_sa':0,'vilte':0,'ts43_entitlement':0,'satellite':0,'ims_detailed':0,
        'others_pb_entries':0,'mcc':set()})
     a['carriers']+=1
-    for k in('volte','vowifi','vonr','nr_sa','vilte','ts43_entitlement','satellite'):a[k]+=bool(r[k])
+    for k in('volte','volte_user_optin','vowifi','vonr','nr_sa','vilte','ts43_entitlement','satellite'):a[k]+=bool(r[k])
     a['ims_detailed']+=r['ims_param_keys']>=5
     a['mcc'].update(m[:3] for m in r['mcc_mnc'].split())
 for o in others:
     iso=o['country_iso']
     if iso not in agg:
         agg[iso]={'country_iso':iso,'country':country(iso.lower())[1] if iso!='??' else '(unknown)','carriers':0,
-          'volte':0,'vowifi':0,'vonr':0,'nr_sa':0,'vilte':0,'ts43_entitlement':0,'satellite':0,'ims_detailed':0,
+          'volte':0,'volte_user_optin':0,'vowifi':0,'vonr':0,'nr_sa':0,'vilte':0,'ts43_entitlement':0,'satellite':0,'ims_detailed':0,
           'others_pb_entries':0,'mcc':set()}
     agg[iso]['others_pb_entries']+=1
     if o['id'][:3].isdigit():agg[iso]['mcc'].add(o['id'][:3])
