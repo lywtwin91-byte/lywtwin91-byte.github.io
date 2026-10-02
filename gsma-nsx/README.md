@@ -2,6 +2,7 @@
 
 - 대상: `cubs_beta-ota-cp41.260831.011-f191b637.zip`
   (`google/cubs_beta/cubs:17/CP41.260831.011/16448103`, 보안 패치 2026-09-01)
+- NSX 직접 연동 코드 검증: [`NSX_CLIENT_CHECK.md`](NSX_CLIENT_CHECK.md)
 - VoLTE 토글 조건 분석: [`VOLTE_TOGGLE.md`](VOLTE_TOGGLE.md)
 - 결과 페이지: [`index.html`](index.html) · 데이터: [`data/countries.csv`](data/countries.csv), [`data/carriers.csv`](data/carriers.csv), [`data/data.json`](data/data.json)
 
